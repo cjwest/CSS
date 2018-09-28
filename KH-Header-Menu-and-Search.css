@@ -1,0 +1,235 @@
+/***** HEADER, MENU, AND SEARCH STYLES *****/
+
+/*** Logo and header styles ***/
+#header #logo img {
+    max-width: 300px;
+}
+
+.header {
+    background-color: #ffffff;
+    min-height: 40px;
+    padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .header {
+        width: 240px;
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+    #header #logo img {
+        max-width: 200px;
+    }
+    .navbar .btn-navbar {
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .btn-navbar {
+        margin-top: -60px;
+    }
+}
+
+/*** Main Menu positioning and styles ***/
+#main-menu {
+    background: #ffffff;
+}
+
+#block-menu-block-stanford-jumpstart-layouts-1 a {
+    color: #B1040E;
+}
+
+.region-navigation #block-menu-block-1 {
+    float: right;
+    margin-bottom: 1.5em;
+}
+
+#block-menu-block-1 li > a {
+    padding: 28px 10px;
+}
+
+#block-menu-block-1 li > a:hover,
+#block-menu-block-1 li > a:focus {
+    background: #8c191b;
+    color: #ffffff;
+}
+
+#block-menu-block-1 li > a.dropdown-toggle:hover,
+#block-menu-block-1 li > a.dropdown-toggle:focus,
+.navbar #block-menu-block-1 .nav li.active-trail.dropdown > a.dropdown-toggle:hover,
+.navbar #block-menu-block-1 .nav li.active-trail.dropdown > a.dropdown-toggle:focus {
+    background-image: url("https://files-dev2018-knight-hennessy-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/chevron-down_white.png");
+    background-position: center 55px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+.navbar .nav > li > a {
+    font-weight: 400;
+}
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret,
+.navbar .nav li.dropdown > a:hover .caret,
+.navbar .nav li.dropdown > a:focus .caret {
+    border: none;
+}
+
+.nav-collapse.collapse {
+    float: right;
+    margin-top: -75px;
+    margin-right: 90px;
+}
+
+.dropdown-menu {
+    background: #8c191b;
+    border: none;
+    margin-top: 0;
+    min-width: 235px;
+}
+
+#block-menu-block-1 .dropdown-menu li > a {
+    color: #ffffff;
+    font-size: 1.1em;
+    padding: 10px 20px;
+}
+
+#block-menu-block-1 .dropdown-menu li > a:hover,
+#block-menu-block-1 .dropdown-menu li > a:focus {
+    background: #671214;
+}
+
+.navbar #block-menu-block-1 .nav li.active-trail.dropdown > .dropdown-toggle {
+    background: #8c191b;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.nav-collapse .dropdown-menu > .active > a {
+    background: #671214;
+    font-weight: 600;
+}
+
+@media (max-width: 1199px) {
+    .nav-collapse.collapse {
+        float: none;
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .region-navigation #block-menu-block-1 {
+        float: none;
+    }
+    #block-menu-block-1 li > a {
+        padding: 10px 10px;
+    }
+}
+
+/*** Sidenav ***/
+#block-menu-block-2 > h2 {
+    font-size: 1.6em;
+}
+
+#block-menu-block-2 .menu > li > a {
+    font-size: 1.1em;
+}
+
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+    background: #F4F4F1;
+    color: #333333;
+}
+
+/*** Search positioning and styles ***/
+.nav-search {
+    margin-top: -4.3em;
+    position: relative;
+    z-index: 1;
+}
+
+body #block-search-form input.search-query {
+    background: url(https://files-dev2018-knight-hennessy-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/mag-glass.png) no-repeat center;
+    background-size: 20px 21px;
+    box-shadow: 0 0 0 1.5px #8c191b;
+}
+
+body #block-search-form input.search-query:focus {
+    background: url(https://files-dev2018-knight-hennessy-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/mag-glass.png) no-repeat 795px center;
+    background-size: 20px 21px;
+    border-radius: 45px;
+    height: 65px;
+    margin-top: -11px;
+    width: 775px;
+}
+
+body #block-search-form input.search-query:hover,
+body #block-search-form input.search-query:focus {
+    box-shadow: 0 0 0 2px #8c191b;
+}
+
+#block-search-form {
+    margin-left: 2em;
+    margin-top: 7px;
+}
+
+#block-search-form input::-webkit-input-placeholder {
+    color: #2e2d29;
+}
+
+#block-search-form input::-moz-placeholder {
+    color: #2e2d29;
+}
+
+@media (min-width: 1199px) {
+    body #block-search-form input.search-query:focus {
+        transition: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    #block-search-form {
+        margin-top: 0;
+    }
+    .nav-search {
+        margin-top: 0.8em;
+    }
+    body #block-search-form input.search-query:focus {
+        background-position-x: 165px;
+        background-size: 20px 21px;
+        height: 35px;
+        margin-top: 0;
+        width: 130px;
+    }
+}
+
+@media (max-width: 979px) {
+    .nav-search {
+        margin-top: -4.3em;
+    }
+}
+
+@media (max-width: 767px) {
+    body #block-search-form input.search-query:focus {
+        background-position-x: 90vw;
+        width: calc(100vw - 100px);
+    }
+    .nav-search {
+        margin-top: -55px;
+    }
+}
+
+@media (max-width: 600px) {
+    body #block-search-form input.search-query:focus {
+        background-position-x: 88vw;
+    }
+}
+
+@media (max-width: 480px) {
+    body #block-search-form input.search-query:focus {
+        background-position-x: 84vw;
+    }
+    .nav-search {
+        margin-top: -65px;
+    }
+}
