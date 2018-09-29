@@ -1,0 +1,97 @@
+/***** GLOBAL STYLES *****/
+
+h1 {
+    color: #5E3032;
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #5E3032;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+h3 {
+    color: #5E3032;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+body {
+    color: #2e2d29;
+    font-size: 16px;
+}
+
+.well {
+    color: #2e2d29;
+    background: #f4f4f4;
+    padding: 30px 25px;
+}
+
+.well h2 {
+    color: #5E3032;
+}
+
+.well h3 {
+    color: #5E3032;
+}
+
+.well h4 {
+    color: #5E3032;
+}
+
+hr {
+    border-top: 1px solid #B1975C;
+}
+
+#content p a,
+.well a,
+td a,
+li a {
+    color: #006CB8;
+    font-weight: 400;
+}
+
+.well a:hover,
+.well a:focus,
+#content p a:hover,
+#content p a:focus,
+td a:hover,
+td a:focus,
+li a:hover,
+li a:focus {
+    color: #003F6B;
+    text-decoration: underline;
+}
+
+.main .sidebar .block {
+    margin-bottom: 15px;
+}
+
+.caption {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+p.quote {
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.6em;
+    padding: 0 50px;
+}
+
+p.quote:before {
+    content: open-quote;
+}
+
+p.quote:after {
+    content: close-quote;
+}
+
+/*** SOCIAL MEDIA ICONS ***/
+.bean-stanford-social-media-connect .field-type-fontawesome-icon a {
+    border: 2px solid #808080;
+}

@@ -1,0 +1,318 @@
+/*** FULL-WIDTH-TOP-BANNER ***/
+.region-fullwidth-top {
+    border-bottom: 20px solid #00505C;
+    border-top: 5px solid #d4d4d4;
+}
+
+#block-bean-homepage-fw-banner > div.content > div {
+    postion: relative;
+}
+
+#block-bean-homepage-fw-banner > div.content > div > div.group-s-fw-image-content.field-group-div.well {
+    display: block;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    background: none;
+}
+
+@media (max-width: 780px) {
+    #block-bean-homepage-fw-banner > div.content > div > div.group-s-fw-image-content.field-group-div.well {
+        position: static;
+        background: #00505C;
+        margin-bottom: 0;
+    }
+}
+
+#block-bean-homepage-fw-banner > div.content > div > div.group-s-fw-image-content.field-group-div.well > h2 {
+    font-weight: 300;
+    font-size: 3em;
+    color: #ffffff;
+    padding-left: 0px;
+    letter-spacing: -0.03em;
+    line-height: 1.1em;
+}
+
+@media (max-width: 1030px) {
+    #block-bean-homepage-fw-banner > div.content > div > div.group-s-fw-image-content.field-group-div.well > h2 {
+    font-size:2.5em;
+    }
+}
+
+@media (max-width: 375px) {
+    #block-bean-homepage-fw-banner > div.content > div > div.group-s-fw-image-content.field-group-div.well > h2 {
+    font-size: 1.8em;
+    }
+}
+
+#block-bean-homepage-fw-banner > div.content > div > div.group-s-fw-image-content.field-group-div.well > div {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+@media (max-width: 375px) {
+    #block-bean-homepage-fw-banner > div.content > div > div.group-s-fw-image-content.field-group-div.well > div {
+    font-size: 1.2em;
+    color: #ffffff;
+    }
+}
+
+#block-bean-homepage-fw-banner > div.content > div > div.group-s-fw-image-content.field-group-div.well > div > div > div > p:nth-child(2) > a {
+    font-size: 0.8em;
+    color: #fff;
+}
+
+/*** STORY HERO IMAGE ***/
+#node-83 > div > div > div > div > div:nth-child(3) > div > div > div > div > div > div > div > p {
+    font-family: "Crimson Text",serif;
+}
+
+#node-83 .field-name-field-p-hero-image {
+    margin-bottom: 0px;
+}
+
+#node-83 .entity.entity-paragraphs-item.paragraphs-item-p-hero {
+    border-bottom: 20px solid #00505c;
+    border-top: 5px solid #d4d4d4;
+    margin-top: 0px;
+}
+
+#node-83 .field.field-name-field-p-hero-superhead {
+    color: #ffffff;
+    font-family: "Crimson Text", serif;
+    letter-spacing: -0.03em;
+    line-height: 1.1em;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+#node-83 > div > div > div > div > div:nth-child(1) > div > div > div.group-overlay-text.field-group-div > h2 > div > div > div {
+    color: #ffffff;
+}
+
+#node-83 > div > div > div > div > div:nth-child(1) > div > div > div.group-overlay-text.field-group-div {
+    display: block;
+    position: absolute;
+    left: calc(50% - 444px);
+    top: calc(50% - 230px);
+}
+
+@media (max-width: 1100px) {
+    #node-83 > div > div > div > div > div:nth-child(1) > div > div > div.group-overlay-text.field-group-div {
+    position: static;
+    background: #00505c;
+    }
+}
+
+
+/*** VIDEO ***/
+#node-83 > div > div > div > div > div:nth-child(1) > div > div > div.field.field-name-field-p-hero-video.field-type-video-embed-field.field-label-hidden {
+    margin-bottom: 0em;
+}
+
+/*** STORY ICON GRID ***/
+#node-83 > div > div > div > div > div:nth-child(3) > div > div > div > div > div > div > div > p {
+    margin-bottom: 0;
+}
+
+#node-83 > div > div > div > div > div:nth-child(2) > div > div > div > div > div > div.field-collection-view.clearfix.view-mode-full.field-collection-view-final.span4 > div > div > h2,
+#node-83 > div > div > div > div > div:nth-child(2) > div > div > div > div > div > div.field-collection-view.clearfix.view-mode-full.span4.offset2 > div > div > h2 {
+    font-size: 1.6em;
+}
+
+/*** WHAT TO EXPECT ITEMS ***/
+#node-83 > div > div > div > div > div:nth-child(4) > div > div > div > div > div > div:nth-child(1),
+#node-83 > div > div > div > div > div:nth-child(4) > div > div > div > div > div > div:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+#node-83 > div > div > div > div > div:nth-child(4) > div {
+    margin-bottom: 0;
+}
+
+/*** STORY PAGE: Hero image
+.paragraphs-item-p-hero .group-overlay-text .field-name-field-p-hero-superhead {
+  font-weight: 800;
+}
+
+.group-headline-h2 {
+    margin: 0.5em 0 0.5em;
+}
+
+.paragraphs-item-p-hero .group-overlay-text {
+  background: none;
+}
+
+.paragraphs-item-p-hero.overlay-left .group-overlay-text {
+  left: 13%;
+}
+
+.paragraphs-item-p-hero .group-overlay-text .field.field-name-field-p-hero-headline,
+.paragraphs-item-p-hero .group-overlay-text .field.field-name-field-p-hero-superhead {
+  text-align: center;
+  color: #fff;
+}
+
+.paragraphs-item-p-hero.overlay-top .group-overlay-text {
+  top: 25%;
+}
+ ***/
+
+.entity-paragraphs-item.center, .entity-paragraphs-item.center.span12:first-child {
+    margin-bottom: 60px;
+}
+
+a.more-link,
+.more-link a {
+  font-size: 20px;
+}
+
+/*** PARAGRAPH ICONS ***/
+
+.paragraphs-item-p-icon .color-black .field-name-field-p-icon-icon a, .paragraphs-item-p-icon .color-black .field-name-field-p-icon-image a, .paragraphs-item-p-icon .color-black .field-name-field-p-icon-icon a:focus, .paragraphs-item-p-icon .color-black .field-name-field-p-icon-image a:focus, .paragraphs-item-p-icon .color-black .field-name-field-p-icon-icon a:hover, .paragraphs-item-p-icon .color-black .field-name-field-p-icon-image a:hover {
+    color: #ffffff;
+}
+
+
+/***Divider Header ***/
+
+.paragraphs-item-p-section-header h2 {
+  padding: 50px 0 0;
+  font-size: 3em;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+.paragraphs-item-p-section-header h2:first-child {
+  padding-top: 0;
+}
+
+#node-83 > div > div > div > div > div:nth-child(1) > div {
+    margin-top: 60px;
+}
+
+/*** TEASERS ***/
+
+.field-collection-container .field-items .field-items .field-item {
+  text-align: center;
+}
+
+.paragraphs-item-p-hero .group-overlay-text .field-name-field-p-hero-superhead {
+  font-weight: 800;
+}
+
+.group-headline-h2 {
+    margin: 0.5em 0 0.5em;
+}
+
+.paragraphs-item-p-hero .group-overlay-text {
+  background: none;
+}
+
+.paragraphs-item-p-hero.overlay-left .group-overlay-text {
+  left: 13%;
+}
+
+.paragraphs-item-p-hero .group-overlay-text .field.field-name-field-p-hero-headline,
+.paragraphs-item-p-hero .group-overlay-text .field.field-name-field-p-hero-superhead {
+  text-align: center;
+  color: #fff;
+}
+
+.paragraphs-item-p-hero.overlay-top .group-overlay-text {
+  top: 25%;
+}
+
+.entity-paragraphs-item.center, .entity-paragraphs-item.center.span12:first-child {
+    margin-bottom: 60px;
+}
+
+a.more-link,
+.more-link a {
+  font-size: 20px;
+}
+
+
+
+/*** TEASERS ***/
+
+.field-collection-container .field-items .field-items .field-item {
+  text-align: center;
+}
+
+#node-83 .field-name-field-p-icon-icon {
+    background-color: #00505C;
+}
+
+
+.paragraphs-item-p-hero .group-overlay-text {
+  background: none;
+}
+
+.paragraphs-item-p-hero.overlay-left .group-overlay-text {
+  left: 13%;
+}
+
+.paragraphs-item-p-hero .group-overlay-text .field.field-name-field-p-hero-headline,
+.paragraphs-item-p-hero .group-overlay-text .field.field-name-field-p-hero-superhead {
+  text-align: center;
+  color: #fff;
+}
+
+.paragraphs-item-p-hero.overlay-top .group-overlay-text {
+  top: 25%;
+}
+
+.entity-paragraphs-item.center, .entity-paragraphs-item.center.span12:first-child {
+    margin-bottom: 60px;
+}
+
+a.more-link,
+.more-link a {
+  font-size: 20px;
+}
+
+
+/*** TEASERS ***/
+
+.field-collection-container .field-items .field-items .field-item {
+  text-align: center;
+}
+
+/*** Schedule Overview ***/
+
+#block-bean-view-schedule-overview-block {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+#fullwidth-bottom {
+    background-color: #f2f1eb;
+    border-top: 1px solid #d4d4d4;
+}
+
+/*** FOOTER ***/
+
+}
+
+
+/***Social Icons***/
+
+.bean-stanford-social-media-connect .field-type-fontawesome-icon a {
+  border: none;
+}
+/***
+.bean-stanford-social-media-connect .field-type-fontawesome-icon.color-facebook a {
+  background: #3B5998;
+}
+
+.bean-stanford-social-media-connect .field-type-fontawesome-icon.color-instagram a {
+  background: #333;
+}
+***/

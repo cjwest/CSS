@@ -1,0 +1,50 @@
+/*** MAIN MENU NAVIGATION ***/
+#main-menu {
+    background: #fff;
+}
+
+#block-menu-block-stanford-jumpstart-layouts-1 a {
+    color: #B1040E;
+}
+
+#block-menu-block-1 li > a {
+    color: #8c191b;
+}
+
+/*** SIDEBAR NAVIGATION ***/
+#block-menu-block-2,
+#block-menu-block-2 ul > li.expanded.active-trail {
+    background: none;
+}
+
+#block-menu-block-2 {
+    padding: 0 0 1.3em 1.3em;
+}
+
+#block-menu-block-2 > h2 {
+    border-top: 1px solid #b6b1a9;
+    border-bottom: 1px solid #b6b1a9;
+    color: #6a6a6a;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+#block-menu-block-2 .menu > li > a {
+    border: none;
+    color: #B1040E;
+}
+
+#block-menu-block-2 .menu > li > a.active {
+    background: #F4F4F4;
+    color: #333333;
+    font-weight: 700;
+}
+
+#block-menu-block-2 .menu > li > a:hover {
+    background: #F4F4F4;
+    color: #333333;
+}
+
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last {
+    border: none;
+}
