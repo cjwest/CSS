@@ -9,7 +9,7 @@
 }
 
 #node-83 > div > div > div > div > div:nth-child(1) > div > div > h2 {
-    background-image: url("https://kh-iw.stanford.edu/sites/default/files/bg-leadership-program.png");
+    background-image: url("../bg-leadership-program.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -32,13 +32,14 @@
     }
 }
 
-
+#node-83 .field-name-field-s-story-sections .field-item:nth-child(3) .paragraphs-item-p-section-header h2,
 #node-83 > div > div > div > div > div:nth-child(5) > div > div > h2 {
-    background-image: url("https://files-dev2018-knight-hennessy-stanford-edu.s3-us-west-2.amazonaws.com/s3fs-public/bg-global-leaders.png");
+    background-image: url("../bg-global-leaders.png");
     background-repeat: no-repeat;
+    background-color: white;
     background-position: center;
     background-size: contain;
-    color #5E3032;
+    color: #5E3032;
     font-size: 42px;
 }
 
@@ -78,7 +79,7 @@
 .paragraphs-items-field-s-story-sections .field-item:nth-child(6) .paragraphs-item-p-wysiwyg h2.group-wysiwyg-title,
 .paragraphs-items-field-s-story-sections .field-item:nth-child(7) .paragraphs-item-p-wysiwyg h2.group-wysiwyg-title,
 .paragraphs-items-field-s-story-sections .field-item:nth-child(8) .paragraphs-item-p-wysiwyg h2.group-wysiwyg-title {
-    background-image: url("https://kh-iw.stanford.edu/sites/default/files/title-background-gray_2.png");
+    background-image: url("../title-background-gray_2.png");
     background-repeat: no-repeat;
     background-position: left;
     color: #B1975C;
