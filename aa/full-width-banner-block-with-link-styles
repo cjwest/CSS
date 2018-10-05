@@ -1,0 +1,92 @@
+.fwl-banner-image {
+    position: relative;
+}
+
+.fwl-banner-image img {
+    width: 100%;
+}
+
+.fwl-banner-overlay {
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+
+.fwl-banner-overlay .field-name-field-s-image-caption h2 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: unset;
+    margin-bottom: 20px;
+}
+
+.fwl-banner-overlay .field-name-field-s-image-caption p {
+    color: #ffffff;
+    margin: 0 0 1em;
+}
+
+.fwl-banner-overlay .field-name-field-s-image-caption a {
+    font-size: 20px;
+}
+
+.fwl-banner-image .field-name-field-s-image-image {
+    background: #001933;
+}
+
+.fwl-banner-image .field-name-field-s-image-image img {
+    opacity: .3;
+}
+
+@media (max-width: 979px) {
+    .page-node-1904 .region-fullwidth-top {
+        background: #3f3c30;
+    }
+    .fwl-banner-image > div.field.field-name-field-s-image-image {
+        display: none;
+    }
+    .fwl-banner-overlay {
+        width: 70%;
+        position: inherit;
+        height: auto;
+        transform: unset;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .fwl-banner-overlay {
+        width: 75%;
+        }
+}
+
+@media (max-width: 905px) {
+    .fwl-banner-overlay {
+        width: 80%;
+        }
+}
+
+@media (max-width: 849px) {
+    .fwl-banner-overlay {
+        width: 90%;
+        }
+}
+@media (max-width: 580px) {
+  .fwl-banner-overlay .field-name-field-s-image-caption h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .fwl-banner-overlay .field-name-field-s-image-caption p {
+    font-size: 18px;
+    line-height: 1.2em;
+  }
+  .fwl-banner-overlay .field-name-field-s-image-caption a {
+    font-size: 16px;
+  }
+}

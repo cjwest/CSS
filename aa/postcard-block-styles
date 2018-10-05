@@ -1,0 +1,13 @@
+/*** stanford_6_col_banner_short ***/
+
+.well .postcard-left .view-mode-stanford-6-col-banner-short > div:first-child img {
+    margin-right: 30px;
+}
+
+
+@media (max-width: 979px) {
+    .block.block-bean > div.content > div > div > div > div.postcard-image > div > div > div > div > div > div > div > div > div > div > img {
+        margin-right: 0;
+        width: 979px;
+        }
+}
