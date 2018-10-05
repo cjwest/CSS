@@ -1,0 +1,25 @@
+/* Remove page title for the preview homepage */
+.page-node-1094 #page-title { display:none;}
+
+.page-node-1094 .block.centered {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page-node-1094 .block.narrow .content {
+  max-width: 900px;
+  padding: 0 0 20px;
+  margin: auto;
+}
+
+/*Add margin left/right to "Academics" section*/
+
+.page-node-1094 .region-content-lower {
+  margin: 20px 10% 50px;
+}
+
+/****TURN ON WHEN WE FLIP TO LIVE HOMEPAGE
+.front .region-content-lower {
+  margin: 0 10%;
+******/
