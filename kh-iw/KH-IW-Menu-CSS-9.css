@@ -176,7 +176,7 @@
     .navbar .nav li.active-trail.dropdown > .dropdown-toggle,
     .navbar .nav li.active-trail.dropdown > .dropdown-toggle:hover,
     .navbar .nav li.active-trail.dropdown > .dropdown-toggle:focus {
-    color: #111;
+    /* color: #111; */
     background: #fff;
 
     }
@@ -272,7 +272,7 @@
 .sidebar .block-menu .content > .menu > li.last,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.last {
     border-color: #d6d6d6;
-    color: #00505C;
+    /* color: #00505C; */
   /*  font-weight: bold;*/
 }
 

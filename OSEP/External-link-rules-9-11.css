@@ -1,0 +1,4 @@
+a.external-link::after, .external-link a::after {
+  padding-left: 4px;
+  content: url('https://commencement.stanford.edu/sites/default/files/ext-link-icon_1.png');
+}

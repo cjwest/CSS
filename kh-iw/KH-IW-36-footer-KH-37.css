@@ -1,0 +1,36 @@
+/***** FOOTER STYLES *****/
+
+#footer .block {
+    font-size: 16px;
+}
+
+.site-footer {
+    background-color: #000000;
+    border-bottom: 3px solid #B1975C;
+}
+
+.site-footer h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.site-footer .block h2,
+.site-footer .block p {
+    color: #B1975C;
+}
+
+.site-footer a,
+.site-footer .menu li a,
+.site-footer .content > .menu > li > a {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+#block-bean-project-s-logo-footer-block img {
+    height: auto;
+    width: 200px;
+}
+
+#block-bean-optional-footer-block h2 {
+    margin-bottom: 0;
+}
