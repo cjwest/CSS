@@ -1,0 +1,15 @@
+/* JSE Linked Logo block fix */
+.style-custom-styles-cardinal #block-bean-jse-linked-logo-block p a,
+.style-custom-styles-contrast #block-bean-jse-linked-logo-block p a,
+.style-custom-styles-rich #block-bean-jse-linked-logo-block p a {
+    display: block;
+    height: 17px;
+}
+
+@media (max-width: 767px) {
+  .style-custom-styles-cardinal #block-bean-jse-linked-logo-block p a,
+  .style-custom-styles-contrast #block-bean-jse-linked-logo-block p a,
+  .style-custom-styles-rich #block-bean-jse-linked-logo-block p a {
+    height: 44px;
+  }
+}
