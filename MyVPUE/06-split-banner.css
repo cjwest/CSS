@@ -1,0 +1,90 @@
+/* Styles for the split banner */
+
+:root{
+  --light-bg-color: #f8f7f2;
+  --dark-bg-color: #e9e6df;
+}
+
+.split-banner {
+  position: relative;
+  background: var(--light-bg-color);
+  border-radius: 3px;
+}
+.split-banner.Dark {
+  background: var(--dark-bg-color);
+}
+
+.split-banner-image {
+  position: relative;
+}
+
+.split-banner-content {
+  background: var(--light-bg-color);
+  border-radius: 0 3px 3px 0;
+  bottom: 0;
+  left: 50%;
+  max-height: 370px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.split-banner-content.Dark {
+  background: var(--dark-bg-color);
+}
+.split-banner-content>div {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.4em;
+  margin-bottom: 1.3em;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.split-banner-content .site-title h2 {
+  font-size: 1.7em;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.1em;
+  margin-bottom: 0.3em;
+  margin-top: 30px;
+}
+
+@media (max-width: 1199px) {
+  .split-banner-content .site-title h2 {
+    font-size: 32px;
+  }
+}
+/*
+@media (max-width: 979px) {
+.split-banner-content {
+border-radius: 0 0 3px 3px;
+bottom: 0;
+display: inline-block;
+left: auto;
+max-height: none;
+padding-bottom: 30px;
+position: relative;
+right: 0;
+top: 0;
+width: 100%;
+}
+}
+*/
+/* The linter is blowing up on this.
+.split-banner-content:before {
+content: "";
+display: inline-block;
+float: left;
+height: 100%;
+margin-left: -55px;
+max-height: 370px;
+position: relative;
+width: 55px;
+background-image: linear-gradient(to right,rgba(233,237,238,0),#e9edee);
+}
+.split-banner-content.Light::before {
+background-image: linear-gradient(to right,rgba(233,237,238,0),var(--light-bg-color));
+}
+.split-banner-content.Dark::before {
+background-image: linear-gradient(to right,rgba(233,237,238,
