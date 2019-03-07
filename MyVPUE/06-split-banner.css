@@ -41,7 +41,7 @@
   margin-right: 50px;
 }
 
-.split-banner-content .site-title h2 {
+.split-banner-content .slide-title h2 {
   font-size: 1.7em;
   font-weight: 400;
   letter-spacing: 0;
@@ -51,26 +51,27 @@
 }
 
 @media (max-width: 1199px) {
-  .split-banner-content .site-title h2 {
+  .split-banner-content .slide-title h2 {
     font-size: 32px;
   }
 }
 /*
 @media (max-width: 979px) {
-.split-banner-content {
-border-radius: 0 0 3px 3px;
-bottom: 0;
-display: inline-block;
-left: auto;
-max-height: none;
-padding-bottom: 30px;
-position: relative;
-right: 0;
-top: 0;
-width: 100%;
-}
+  .split-banner-content {
+    border-radius: 0 0 3px 3px;
+    bottom: 0;
+    display: inline-block;
+    left: auto;
+    max-height: none;
+    padding-bottom: 30px;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
 }
 */
+
 /* The linter is blowing up on this.
 .split-banner-content:before {
 content: "";
