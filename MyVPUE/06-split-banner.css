@@ -10,15 +10,32 @@
   background: var(--light-bg-color);
   border-radius: 3px;
 }
-.split-banner.Dark {
+.Dark .split-banner {
   background: var(--dark-bg-color);
 }
-
 .split-banner-image {
   position: relative;
 }
 
-.split-banner-content {
+.Left .split-banner-image {
+  left: 50%;
+  width: 50%;
+}
+
+
+
+.Left .split-banner-content {
+  background: var(--light-bg-color);
+  border-radius: 0 3px 3px 0;
+  bottom: 0;
+  left: 0;
+  max-height: 370px;
+  position: absolute;
+  right: 50%;
+  top: 0;
+}
+
+.RIght .split-banner-content {
   background: var(--light-bg-color);
   border-radius: 0 3px 3px 0;
   bottom: 0;
@@ -29,7 +46,7 @@
   top: 0;
 }
 
-.split-banner-content.Dark {
+.Dark .split-banner-content {
   background: var(--dark-bg-color);
 }
 .split-banner-content>div {
@@ -55,9 +72,8 @@
     font-size: 32px;
   }
 }
-
 @media (max-width: 979px) {
-  .split-banner-content {
+  .Left .split-banner-content {
     border-radius: 0 0 3px 3px;
     bottom: 0;
     display: inline-block;
@@ -71,12 +87,29 @@
   }
 }
 @media (max-width: 979px) {
-  .split-banner-image img {
+  .Left .split-banner-content {
+    border-radius: 0 0 3px 3px;
+    bottom: 0;
+    display: inline-block;
+    left: 0;
+    max-height: none;
+    padding-bottom: 30px;
+    position: relative;
+    right: auto;
+    top: 0;
     width: 100%;
-    border-radius: 3px 3px 0 0;
   }
 }
-css_Si6WcWMRK_2…Cd4rrTY.css:12
+@media (max-width: 979px) {
+  .split-banner-image img {
+    border-radius: 3px 3px 0 0;
+    width: 100%;
+  }
+  .Left .split-banner-image {
+    left: 0;
+    width: 100%;
+  }
+}
 /* The linter is blowing up on this.
 .split-banner-content:before {
 content: "";
