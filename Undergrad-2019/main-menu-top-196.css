@@ -1,5 +1,6 @@
 /* Top Level Menu */
-#main-menu {
+#main-menu,
+.site-main-menu {
     background: #B1040E;
     margin-bottom: 0;
 }
