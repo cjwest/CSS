@@ -1,22 +1,24 @@
+/* Second level Menu */
 .navbar .nav > li > ul.dropdown-menu > li > a {
     color: white;
     font-size: 15px;
     font-style: normal;
     letter-spacing: 0.01em;
-    line-height: 1.4em;
+    line-height: 1.2em;
     white-space: normal;
 }
 .navbar .nav > li > ul.dropdown-menu > li.active-trail > a,
 .navbar .nav > li > ul.dropdown-menu > li > a:hover {
     background: #53284f;
     color: white;
+    font-size: 15px;
 }
 
 .dropdown-menu {
     background-color: #B1040E;
     border: #B1040E 4px solid;
     color: white;
-    margin-top: 10px;
+    margin-top: 27px;
     padding: 10px;
     right: 6px;
 }
@@ -44,20 +46,30 @@
     -o-border-radius: 0;
     border-radius: 0;
     color: #FFF;
-    font-weight: 400;
-    margin-right: 20px;
+    font-weight: 300;
+    margin-right: 10px;
     padding: 0.5em;
 }
 
 .open::after {
     border-bottom: 15px solid #B1040E;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
     content: '';
     height: 0;
     left: 40%;
     position: absolute;
-    top: 23px;
+    top: 40px;
     width: 0;
     z-index: 1000;
+}
+
+.caret {
+    display: none;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px dashed #fff;
 }
