@@ -1,0 +1,18 @@
+/*DENA MOVED TO _menus.scss*/
+
+.navbar .nav > li > a {
+    color: #3f3c30;
+    margin: 0 0.5em 0 0;
+    padding: 4px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: none;
+    text-decoration: none;
+    text-shadow: none;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    text-transform: none;
+}
