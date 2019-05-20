@@ -1,0 +1,12 @@
+/*There is a javascript solution for Title Case which might be useful here because the old style transformed the text to all uppercase and every entry is different. http://individed.com/code/to-title-case */
+
+span.red-uppercase {
+    font-family: Source Serif Pro;
+    color: #B1040E;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+  }
+
+div#content .mc-content .span8 {
+    margin: 0px 0px 14px 10px;
+    }
