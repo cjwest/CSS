@@ -1,0 +1,105 @@
+
+
+#content-wrapper {
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+/*DENA moved this to _typography.scss*/
+p {
+    font-family: Source Serif Pro, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+}
+
+h1 {
+  font-family: "Source Serif Pro", serif;
+  color: #3f3c30;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+h2 {
+    font-family: "Source Serif Pro", serif;
+    color: #3f3c30;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    text-rendering: optimizelegibility;
+}
+
+h2, #nav {
+  font-size: 28px;
+  margin: 0 0 12px 0;
+  padding: 0;
+  text-transform: none;
+  line-height: 1em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+#content h2 {
+    font-family: Source Serif Pro; serif;
+    color: #3f3c30;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    text-rendering: optimizelegibility;
+}
+
+h3 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 22px;
+  font-family: Source Serif Pro;
+  letter-spacing: 0.01em;
+}
+
+/*End what DENA moved to _typography.scss*/
+
+#sidebar-first .block-menu h2, #sidebar-first .block-menu-block h2 {
+    font-family: Source Serif Pro; serif;
+    color: #3f3c30;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    text-rendering: optimizelegibility;
+}
+
+.content h2, body.cke_show_borders h2 {
+        font-family: Source Serif Pro; serif;
+    color: #3f3c30;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    text-rendering: optimizelegibility;
+}
+
+
+
+#sidebar-first .block-menu h2, #sidebar-first .block-menu-block h2 {
+    font-family: Source Serif Pro; serif;
+    color: #3f3c30;
+    font-size: 28px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    text-rendering: optimizelegibility;
+    text-transform: none;
+}
+
+.content h3, body.cke_show_borders h3 {
+  color: #3f3c30;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.views-field .views-field-field-s-project-category {
+    font-size: 14px;
+    color: #928b81;
+}
+
+    
