@@ -4,7 +4,7 @@
     font-size: 15px;
     font-style: normal;
     letter-spacing: 0.01em;
-    line-height: 1.2em;
+    line-height: 16px;
     white-space: normal;
 }
 .navbar .nav > li > ul.dropdown-menu > li.active-trail > a,
@@ -16,11 +16,12 @@
 
 .dropdown-menu {
     background-color: #B1040E;
-    border: #B1040E 4px solid;
     color: white;
     margin-top: 27px;
     padding: 10px;
     right: 6px;
+    border-radius: 0;
+    min-width: 210px;
 }
 
 .dropdown-menu li.leaf .nolink {
@@ -33,9 +34,8 @@
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.015em;
-    margin-bottom: 5px;
     margin-right: 20px;
-    padding: 0.5em;
+    padding: 5px 2px 5px 2px;
     text-transform: uppercase;
 }
 
@@ -47,12 +47,11 @@
     border-radius: 0;
     color: #FFF;
     font-weight: 300;
-    margin-right: 10px;
-    padding: 0.5em;
+    padding: 05px 2px 5px 2px;
 }
 
 .open::after {
-    border-bottom: 15px solid #B1040E;
+    border-bottom: 17px solid #B1040E;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     content: '';
@@ -69,7 +68,7 @@
 }
 
 hr {
-    margin: 20px 0;
-    border: none;
+    margin: 5px 0;
+    border: 0;
     border-bottom: 1px dashed #fff;
 }
