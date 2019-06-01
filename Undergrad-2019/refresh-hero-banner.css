@@ -1,0 +1,28 @@
+.full-width-banner .banner-overlay > div h2 a,
+.full-width-banner .banner-overlay > div h2 a:hover {
+  color: #B1040E;
+}
+
+.full-width-banner .banner-overlay > div {
+  background: #F9F6EF;
+  bottom: 0;
+  color: #2E2D29;
+  width: 52%;
+}
+
+.full-width-banner .banner-overlay.carousel-position-right > div {
+  right: 0;
+}
+.full-width-banner .banner-overlay.carousel-position-left > div {
+  left: -8%;
+}
+
+@media (max-width: 1300px) {
+  .full-width-banner .banner-overlay.carousel-position-left > div {
+    left: 0;
+  }
+  .full-width-banner .banner-overlay.carousel-position-right > div {
+    right: 7%;
+    width: 48%;
+  }
+}
