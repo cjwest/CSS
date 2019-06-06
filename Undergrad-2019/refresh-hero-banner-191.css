@@ -26,3 +26,18 @@
     width: 48%;
   }
 }
+@media (max-width: 979px) {
+.full-width-banner .banner-overlay.carousel-position-left > div,
+.full-width-banner .banner-overlay.carousel-position-right > div {
+    margin-left: 0;
+    max-width: 100%;
+    position: inherit;
+    width: 100%;
+}
+.full-width-banner .banner-overlay.carousel-position-right,
+.full-width-banner .banner-overlay.carousel-position-left {
+    height: auto;
+    position: inherit;
+    width: 100%;
+}
+}
