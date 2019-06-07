@@ -1,11 +1,19 @@
 /* Event cards with no image */
 
 :root {
-  --event-card__start-color: #52274E;
-  --event-card__second-color: #2a6f67;
-  --event-card__third-color: #0098db;
-    --event-card__fourth-color: #009A9B;
+  --event-card__start-cool-color: #00505c;
+  --event-card__second-cool-color: #007c92;
+  --event-card__third-cool-color: #009b76;
+  --event-card__fourth-cool-color: #0098db;
+
+  --event-card__start-warm-color: #53284f;
+  --event-card__second-warm-color: #B1040E;
+  --event-card__third-warm-color: #eaab00;
+  --event-card__fourth-warm-color: #e98300;
+
+  --event-card__more-link-bg-color: #DAD7CB;
 }
+
 
 .view-display-id-upcoming_3_2019_no_image_block .view-content {
   display: grid;
@@ -17,16 +25,36 @@
   margin: 0 5% 5% 5%;
 }
 
-.view-display-id-upcoming_3_2019_no_image_block .view-content > div:nth-child(1) {
-  background: linear-gradient(to right top, var(--event-card__start-color), var(--event-card__second-color));
+
+/* Cool gradient */
+.event-card__gradient-cool .view-display-id-upcoming_3_2019_no_image_block .view-content > div:nth-child(1) {
+  background: linear-gradient(to right top, var(--event-card__start-cool-color), var(--event-card__second-cool-color));
   margin-left: 0;
 }
-.view-display-id-upcoming_3_2019_no_image_block .view-content > div:nth-child(2) {
-  background: linear-gradient(to right top, var(--event-card__second-color), var(--event-card__third-color));
+.event-card__gradient-cool .view-display-id-upcoming_3_2019_no_image_block .view-content > div:nth-child(2) {
+  background: linear-gradient(to right top, var(--event-card__second-cool-color), var(--event-card__third-cool-color));
 }
-.view-display-id-upcoming_3_2019_no_image_block .view-content > div:nth-child(3) {
-  background: linear-gradient(to right top, var(--event-card__third-color), var(--event-card__fourth-color));
+.event-card__gradient-cool .view-display-id-upcoming_3_2019_no_image_block .view-content > div:nth-child(3) {
+  background: linear-gradient(to right top, var(--event-card__third-cool-color), var(--event-card__fourth-cool-color));
   margin-right: 0;
+}
+
+/* Warm gradient */
+.event-card__gradient-warm .view-display-id-upcoming_3_2019_no_image_block .view-content > div:nth-child(1) {
+  background: linear-gradient(to right top, var(--event-card__start-warm-color), var(--event-card__second-warm-color));
+  margin-left: 0;
+}
+.event-card__gradient-warm .view-display-id-upcoming_3_2019_no_image_block .view-content > div:nth-child(2) {
+  background: linear-gradient(to right top, var(--event-card__second-warm-color), var(--event-card__third-warm-color));
+}
+.event-card__gradient-warm .view-display-id-upcoming_3_2019_no_image_block .view-content > div:nth-child(3) {
+  background: linear-gradient(to right top, var(--event-card__third-warm-color), var(--event-card__fourth-warm-color));
+  margin-right: 0;
+}
+
+.view-display-id-upcoming_3_2019_no_image_block .view-content .event-card {
+  display: flex;
+      flex-direction: column;
 }
 .view-display-id-upcoming_3_2019_no_image_block .view-content .event-card__content {
   padding: 8%;
@@ -55,4 +83,17 @@
 .view-display-id-upcoming_3_2019_no_image_block .view-content h3 a {
   color: white;
   font-weight: bold;
+}
+
+.view-display-id-upcoming_3_2019_no_image_block .event-card__footer {
+  justify-content: flex-end;
+}
+.view-display-id-upcoming_3_2019_no_image_block .event-card__more-info {
+  background: var(--event-card__more-link-bg-color);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: black;
+  margin: 0 5% 5% 5%;
+  margin-top: 10%;
+  padding: 5%;
+  text-align: center;
 }
