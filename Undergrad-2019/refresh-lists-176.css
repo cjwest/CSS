@@ -1,0 +1,50 @@
+.span8 ol {
+    font-size: 42px;
+    font-family: Source Serif Pro;
+    color: #B1040e;
+}
+
+.big-red-list ol li {
+    font-style: italic;
+    font-weight: bold;
+    font-family: Source Serif Pro;
+    font-size: 42px;
+    color: #B1040E;
+    margin-left: 20px;
+    border-left: 1px dotted #B1040E;
+    }
+
+
+.field-items li {
+    padding: 0px 0px 5px 15px;
+    font-style: normal;
+    font-family: Source Serif Pro;
+    line-height: 1.4em;
+    font-weight: 350;
+    font-size: 20px;
+    color: #3f3c30;
+    margin-bottom: 10px;
+    border-left: 1px dashed #3f3c30;
+}
+
+div#bean-stanford-postcard-full-group-s-postcard li {
+    padding: 0px 0px 5px 15px;
+    font-style: normal;
+    font-family: Source Serif Pro;
+    line-height: 1.4em;
+    font-weight: 350;
+    font-size: 20px;
+    color: #3f3c30;
+    margin-bottom: 10px;
+}
+
+div#admin-menu-wrapper a {
+    font-size: 12px;
+    }
+
+span.red-uppercase {
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    color: #B1040E;
+    letter-spacing: 0.01em;
+}
