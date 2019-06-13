@@ -96,7 +96,8 @@
   border: solid white 1px;
   padding: 3px 6px;
   text-transform: uppercase;
-  width: max-content;
+  width: 3em;
+  height: 3em;
 }
 .view-display-id-upcoming_3_2019_no_image_block .view-content h3 a {
   color: white;
