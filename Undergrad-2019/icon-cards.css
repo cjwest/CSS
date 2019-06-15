@@ -1,6 +1,7 @@
 /* Icon cards https://stanfordits.atlassian.net/browse/UE-107 */
 :root {
-    --icon-bg: #B1040E; /* red */
+  --icon-bg: #B1040E; /* red */
+  --icon-header-text: #B1040E; /* red */
 }
 .paragraphs-item-p-icon .collection-field-item {
   background: #FFFFFF;
@@ -8,5 +9,15 @@
 }
 
 .paragraphs-item-p-icon .color-red .field-name-field-p-icon-icon {
-    background-color: var(--icon-bg);
+  background-color: var(--icon-bg);
+}
+
+.paragraphs-item-p-icon .group-p-icon-title {
+  color: var(--icon-header-text);
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
 }
