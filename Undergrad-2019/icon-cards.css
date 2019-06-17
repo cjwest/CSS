@@ -1,3 +1,4 @@
+/* 2019 CJW Icon cards */
 /* Icon cards https://stanfordits.atlassian.net/browse/UE-107 */
 :root {
   --icon-bg: #B1040E; /* red */
@@ -15,9 +16,43 @@
 .paragraphs-item-p-icon .group-p-icon-title {
   color: var(--icon-header-text);
   font-family: Source Sans Pro;
+  font-size: 30px;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
   line-height: 36px;
   text-align: center;
+}
+
+.paragraphs-item-p-icon .field-name-field-p-icon-column-text  {
+  color: #000000;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  text-align: left;
+  padding: 10%;
+}
+
+.paragraphs-item-p-icon .more-link  {
+      background-color: var(--icon-bg);
+      color: #FFF;
+     margin: 10%;
+     max-width: 100%;
+      padding: 5%;
+}
+
+.paragraphs-item-p-icon .more-link .field-name-field-p-icon-links  a {
+      background-color: var(--icon-bg);
+      color: #FFF;
+      max-width: 100%;
+      padding: 5%;
+}
+/*
+.more-link a:after,
+a.more-link:after,
+.page-search .node-readmore a:after {
+    */
+.paragraphs-item-p-icon .more-link .field-name-field-p-icon-links  a:after {
+    display: inline;
 }
