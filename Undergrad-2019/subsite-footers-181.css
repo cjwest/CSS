@@ -3,7 +3,6 @@
 
 :root {
   --bg-color: #f0ede8;
-  --bg-image: url("data:image/svg+xml,%3Csvg width='48' height='32' viewBox='0 0 48 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e5dbcb' fill-opacity='0.52'%3E%3Cpath d='M27 32c0-3.314 2.686-6 6-6 5.523 0 10-4.477 10-10S38.523 6 33 6c-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 6.627 0 12 5.373 12 12s-5.373 12-12 12c-2.21 0-4 1.79-4 4h-2zm-6 0c0-3.314-2.686-6-6-6-5.523 0-10-4.477-10-10S9.477 6 15 6c3.314 0 6-2.686 6-6h-2c0 2.21-1.79 4-4 4C8.373 4 3 9.373 3 16s5.373 12 12 12c2.21 0 4 1.79 4 4h2z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   --btn-bg-color: #8B1515;    /* red */
   --text-color-dark: #000;
   --text-color-light: white;
@@ -12,7 +11,7 @@
 
 #footer {
   background-color: var(--bg-color);
-  background-image: var(--bg-image);
+  background-image: none;
   color: var(--text-color-dark);
 }
 
@@ -45,7 +44,10 @@
   text-decoration: underline;
   padding: 10%;
 }
-
+#footer a i {
+  color: var(--color-highlight);
+  font-size: 3rem;
+}
 
 /* Subsites
 programs/bosp
@@ -72,24 +74,11 @@ sophomore-college
 sophomore-college/*
 stanford-in-new-york
 stanford-in-new-york/*
+programs/stanford-in-new-york
+programs/stanford-in-new-york/*
 thinking-matters
 thinking-matters/*
 ways
 ways/*
 
-
-https://undergrad-sandbox.stanford.edu/advising/approaching-stanford
-https://undergrad-sandbox.stanford.edu/programs/arts-intensive
-https://undergrad-sandbox.stanford.edu/programs/bosp
-https://undergrad-sandbox.stanford.edu/academic-planning/cardinal-compass
-https://undergrad-sandbox.stanford.edu/tutoring-support/hume-center
-https://undergrad-sandbox.stanford.edu/programs/introsems
-https://undergrad-sandbox.stanford.edu/programs/lelandscholars
-https://undergrad-sandbox.stanford.edu/programs/pwr
-https://undergrad-sandbox.stanford.edu/opportunities/research
-https://undergrad-sandbox.stanford.edu/programs/residential
-https://undergrad-sandbox.stanford.edu/programs/sophomore-college
-https://undergrad-sandbox.stanford.edu/programs/stanford-in-new-york
-https://undergrad-sandbox.stanford.edu/programs/thinking-matters
-https://undergrad-sandbox.stanford.edu/programs/ways
-*/
+end of subsite list */

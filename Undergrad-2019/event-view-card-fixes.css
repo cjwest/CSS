@@ -1,0 +1,15 @@
+/* 2019 CJW Event View Cards - fixes */
+
+.view-id-2019_event_deadline_date_display .view-content > div {
+  box-shadow: none;
+  margin: 0 ;
+}
+
+.view-id-2019_event_deadline_date_display .view-content {
+  display: block;
+}
+
+.view-display-id-upcoming_3_2019_no_image_block .view-content .event-card__date {
+  padding: 1% 3%;
+  width: fit-content;
+}
