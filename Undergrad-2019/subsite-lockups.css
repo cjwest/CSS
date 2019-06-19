@@ -1,0 +1,37 @@
+/* 2019 CJW subsite lockups */
+/* https://stanfordits.atlassian.net/browse/UE-176 */
+
+:root {
+    --subsite-search-form-color: #C3C1BE;
+}
+
+body.page-node-7589 #block-search-form input.search-query {
+    color: black;
+    box-shadow: 0 0 0 1.5px var(--subsite-search-form-color);
+}
+
+.page-node-7589 #main-nav a,
+.page-node-7589 #main-nav,
+.page-node-7589 #main-menu,
+.page-node-7589 .site-main-menu,
+.page-node-7589 #header,
+.page-node-7589 #header a {
+    background-color: white;
+    color: black;
+}
+
+ input[type="text"].search-query:-moz-placeholder {  /* Firefox 18- */
+     color: var(--subsite-search-form-color);
+ }
+  input[type="text"].search-query::-moz-placeholder { /* Firefox 19+ */
+     color: var(--subsite-search-form-color);
+ }
+ input[type="text"].search-query:-ms-input-placeholder { /* IE 10+ */
+     color: var(--subsite-search-form-color);
+ }
+ input[type="text"].search-query::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: var(--subsite-search-form-color);
+}
+ input[type="text"].search-query::placeholder {
+     color: var(--subsite-search-form-color);
+}

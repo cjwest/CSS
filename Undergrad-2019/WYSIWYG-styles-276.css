@@ -1,0 +1,99 @@
+/* 2019 CJW WYSIWYG styles */
+
+a.btn,
+a.btn-red,
+a.btn-purple,
+.btn,
+.btn-purple,
+.btn-red {
+  /* @include font-sans;*/
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  color: white;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 30px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.btn-purple a,
+.btn-red a,
+.btn a {
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+}
+a.btn-red:hover,
+.btn-red:hover,
+a.btn-red,
+.btn-red {
+    background-color: red;
+}
+
+a.btn-purple,
+.btn-purple {
+  background: #53284F;
+}
+
+.btn a:hover,
+a.btn:hover,
+.btn:hover,
+.btn-purple a:hover,
+a.btn-purple:hover,
+.btn-purple:hover,
+.btn-red a:hover,
+a.btn-red:hover,
+.btn-red:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.btn-open a,
+a.btn-open {
+  color:red;
+}
+
+a.btn-open,
+.btn-open {
+  /*@include font-sans;*/
+  background: white;
+  border: 2px solid red;
+  border-radius: 0;
+  display: inline-block;
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-open a {
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+  text-align: center;
+}
+
+.btn-open a:hover,
+a.btn-open:hover,
+.btn-open:hover {
+  background: white;
+  color: red;
+  text-decoration: underline;
+}
