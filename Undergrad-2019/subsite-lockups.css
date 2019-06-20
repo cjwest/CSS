@@ -19,6 +19,10 @@ body.page-node-7589 #block-search-form input.search-query {
     background-color: white;
     color: black;
 }
+.page-node-7589 #main-nav a:focus,
+.page-node-7589 #main-nav a:hover {
+  text-decoration: underline;
+}
 
  input[type="text"].search-query:-moz-placeholder {  /* Firefox 18- */
      color: var(--subsite-search-form-color);
