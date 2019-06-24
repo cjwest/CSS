@@ -1,0 +1,15 @@
+/* 2019 CJW Student Project */
+
+:root {
+    --student-name-color: #b1040e;
+}
+.node-type-stanford-project #block-bean-cardinal-compass-my-stanford-sto ul {
+  margin: 10px 0 10px 0;
+}
+.node-type-stanford-project #field-collection-item-field-bio-field-collection-full-group-s-postcard-content {
+  padding-left: 5%;
+  width: 50%;
+}
+.field-name-field-s-project-bio-title {
+    color: var(--student-name-color);
+}

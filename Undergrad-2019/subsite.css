@@ -1,0 +1,253 @@
+/* Subsite footers */
+/* See ticket https://stanfordits.atlassian.net/browse/UE-159 */
+
+:root {
+  --bg-color: #f0ede8;
+  --btn-bg-color: #8B1515;    /* red */
+  --text-color-dark: #2e2d29; /* black */
+  --text-color-light: white;
+  --color-highlight: #8B1515;    /* red */
+  --subsite-search-form-color: #2e2d29; /* black */
+  --subsite-social-media-color: #2e2d29; /* black */
+  --subsite-social-media-highlight-color: #8B1515;    /* red */
+  --subsite-mobile-menu-color: white;
+  --subsite-mobile-menu-background: #b1040e;    /* red */
+  --header-bg-color: white;
+}
+
+
+/** Header & lockup **/
+
+body  #block-search-form input.search-query {
+  color: var(--text-color-dark);
+  box-shadow: 0 0 0 1.5px var(--subsite-search-form-color);
+  background-color: var(--header-bg-color);
+}
+#header,
+#header a,
+#main-nav,
+#main-menu,
+#site-name a,
+#site-name a:hover,
+.navbar .nav > li > a,
+.navbar .nav > li.dropdown.active-trail > a,
+.navbar .nav > li.dropdown.active > .dropdown-toggle,
+.site-main-menu {
+  background-color: var(--header-bg-color);
+  color: var(--text-color-dark);
+}
+
+.navbar .nav > li.dropdown.open > .dropdown-toggle,
+.navbar .nav > li.dropdown > a:hover:hover,
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+  background-color: var(--header-bg-color);
+  color: var(--text-color-dark);
+  text-decoration: underline;
+}
+
+#header #logo img {
+  max-width: 179px !important;
+}
+
+/** Subsite Search bar **/
+
+input[type="text"].search-query:-moz-placeholder {  /* Firefox 18- */
+  color: var(--subsite-search-form-color);
+}
+input[type="text"].search-query::-moz-placeholder { /* Firefox 19+ */
+  color: var(--subsite-search-form-color);
+}
+input[type="text"].search-query:-ms-input-placeholder { /* IE 10+ */
+  color: var(--subsite-search-form-color);
+}
+input[type="text"].search-query::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--subsite-search-form-color);
+}
+input[type="text"].search-query::placeholder {
+  color: var(--subsite-search-form-color);
+}
+body #block-search-form input.search-query:active,
+body #block-search-form input.search-query:hover,
+body #block-search-form input.search-query {
+  background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-black.svg) no-repeat 0 center;
+}
+body #block-search-form input.search-query:focus {
+  background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-black.svg) no-repeat 160px center;
+}
+
+/** Subsite Mobile Menu and Headers  **/
+
+:root {
+  --mobile-subsite-search-form-color: white;
+}
+
+@media (max-width: 767px) {
+  #main-menu,
+  .site-main-menu{
+    color: var(--subsite-mobile-menu-color);
+  }
+
+  #main-menu,
+  .navbar .nav > li,
+  .navbar .nav > li > a,
+  .navbar .nav > li > li > a ,
+  .navbar .nav > li > a:focus,
+  .navbar .nav > li > a:hover,
+  .navbar .nav > li > a:focus
+  .navbar .nav > li > a:active,
+  .navbar .nav > li > a:hover,
+  .navbar .nav > li.dropdown > a:hover,
+  .navbar .nav > li.dropdown > a:hover:hover,
+  .navbar .nav > li.dropdown.active-trail > a,
+  .navbar .nav > li.dropdown.open > .dropdown-toggle,
+  .navbar .nav > li.dropdown.active > .dropdown-toggle,
+  .navbar .nav > li.dropdown.open.active > .dropdown-toggle {
+    background-color: var(--subsite-mobile-menu-background);
+    color: var(--subsite-mobile-menu-color);
+  }
+
+
+  /* Subsite Mobile Search bar */
+
+  body #block-search-form input.search-query:focus,
+  body #block-search-form input.search-query:active,
+  body #block-search-form input.search-query:hover,
+  body #block-search-form input.search-query {
+    background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-white.svg) no-repeat 0 center;
+    box-shadow: 0 0 0 1.5px var(--subsite-mobile-menu-color);
+    color: var(--subsite-mobile-menu-color);
+  }
+
+  input[type="text"].search-query:-moz-placeholder {  /* Firefox 18- */
+    color: var(--subsite-mobile-menu-color);
+  }
+  input[type="text"].search-query::-moz-placeholder { /* Firefox 19+ */
+    color: var(--subsite-mobile-menu-color);
+  }
+  input[type="text"].search-query:-ms-input-placeholder { /* IE 10+ */
+    color: var(--subsite-mobile-menu-color);
+  }
+  input[type="text"].search-query::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: var(--subsite-mobile-menu-color);
+  }
+  input[type="text"].search-query::placeholder {
+    color: var(--subsite-mobile-menu-color);
+  }
+  body #block-search-form input.search-query:active,
+  body #block-search-form input.search-query:hover,
+  body #block-search-form input.search-query {
+    background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-white.svg) no-repeat 0 center;
+  }
+  body #block-search-form input.search-query:focus {
+    background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-white.svg) no-repeat 160px center;
+  }
+  input:-internal-autofill-selected {
+    background-color: var(--subsite-mobile-menu-background) !important;
+    /*background-image: none !important;*/
+    color: var(--subsite-mobile-menu-color) !important;
+  }
+}
+
+/** Footers **/
+
+#footer {
+  background-color: var(--bg-color);
+  background-image: none;
+  color: var(--text-color-dark);
+}
+
+#footer h2,
+#footer h3 {
+  color: var(--text-color-dark);
+}
+#footer a:focus,
+#footer a:hover {
+  color: var(--text-color-dark);
+  text-decoration: underline;
+}
+#footer a {
+  color: var(--color-highlight);
+  text-decoration: none;
+}
+#footer a.btn,
+#footer a.more-link {
+  background-color: var(--btn-bg-color);
+  color: var(--text-color-light);
+  text-decoration: none;
+  padding: 10%;
+}
+#footer a.btn:focus,
+#footer a.btn:hover,
+#footer a.more-link:focus,
+#footer a.more-link:hover {
+  background-color: var(--btn-bg-color);
+  color: var(--text-color-light);
+  text-decoration: underline;
+  padding: 10%;
+}
+#footer a i {
+  color: var(--color-highlight);
+  font-size: 3rem;
+}
+
+/* Social Media */
+#footer a i, #footer a .fa {
+  color: var(--subsite-social-media-color);
+}
+
+#footer a i:hover,
+#footer a .fa:hover,
+#footer a i:focus,
+#footer a .fa:focus {
+  outline: 1px dashed var(--subsite-social-media-highlight-color);
+  color: var(--subsite-social-media-highlight-color);
+}
+
+
+/* Subsite Paths:
+programs/bosp
+programs/bosp/*
+advising/approaching-stanford
+advising/approaching-stanford/*
+programs/arts-intensive
+programs/arts-intensive/*
+academic-planning/cardinal-compass
+academic-planning/cardinal-compass/*
+tutoring-support/hume-center
+tutoring-support/hume-center/*
+programs/introsems
+programs/introsems/*
+programs/lelandscholars
+programs/lelandscholars/*
+programs/pwr
+programs/pwr/*
+opportunities/research
+opportunities/research/*
+programs/residential
+programs/residential/*
+programs/residential-programs
+programs/residential-programs/*
+sophomore-college
+sophomore-college/*
+subsites/sophomore-college
+subsites/sophomore-college/*
+programs/sophomore-college
+programs/sophomore-college/*
+stanford-in-new-york
+stanford-in-new-york/*
+programs/stanford-in-new-york
+programs/stanford-in-new-york/*
+thinking-matters
+thinking-matters/*
+subsites/thinking-matters
+subsites/thinking-matters/*
+programs/thinking-matters
+programs/thinking-matters/*
+ways
+ways/*
+programs/ways
+programs/ways/*
+
+
+end of subsite paths */

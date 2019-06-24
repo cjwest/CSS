@@ -1,0 +1,76 @@
+/* 2019 CJW Subsite Mobile Menu  */
+
+:root {
+    --mobile-subsite-search-form-color: white;
+}
+
+@media (max-width: 767px) {
+
+#main-menu,
+.navbar .nav > li.dropdown.open > .dropdown-toggle,
+.navbar .nav > li.dropdown > a:hover:hover,
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus
+.navbar .nav > li > a:active,
+.navbar .nav > li > a:hover,
+.navbar .nav > li.dropdown.active-trail > a,
+.navbar .nav > li.dropdown > a:hover,
+.navbar .nav > li.dropdown.open > .dropdown-toggle,
+.navbar .nav > li.dropdown.active > .dropdown-toggle,
+.navbar .nav > li.dropdown.open.active > .dropdown-toggle,
+.navbar .nav > li > li > a ,
+.navbar  .content,
+.navbar   .nav > li,
+.navbar   .nav > li > a,
+.navbar   .nav > li > a:focus {
+     background-color: #b1040e;
+     color: white;
+  }
+
+ .nav-search {
+     margin-right: 1px;
+ }
+ body #block-search-form input.search-query:focus,
+  body #block-search-form input.search-query:active,
+  body #block-search-form input.search-query:hover,
+  body #block-search-form input.search-query {
+    background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-white.svg) no-repeat 0 center;
+    box-shadow: 0 0 0 1.5px white;
+    color: white;
+  }
+  #main-menu,
+  .site-main-menu,
+  body #block-search-form input.search-query:focus {
+      color: white;
+  }
+  .navbar .nav-collapse {
+    margin-bottom: 8px;
+  }
+
+  /** Subsite Search bar **/
+
+input[type="text"].search-query:-moz-placeholder {  /* Firefox 18- */
+  color: var(--mobile-subsite-search-form-color);
+}
+input[type="text"].search-query::-moz-placeholder { /* Firefox 19+ */
+  color: var(--mobile-subsite-search-form-color);
+}
+input[type="text"].search-query:-ms-input-placeholder { /* IE 10+ */
+  color: var(--mobile-subsite-search-form-color);
+}
+input[type="text"].search-query::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--mobile-subsite-search-form-color);
+}
+input[type="text"].search-query::placeholder {
+  color: var(--mobile-subsite-search-form-color);
+}
+body #block-search-form input.search-query:active,
+body #block-search-form input.search-query:hover,
+body #block-search-form input.search-query {
+  background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-white.svg) no-repeat 0 center;
+}
+body #block-search-form input.search-query:focus {
+  background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-white.svg) no-repeat 160px center;
+}
+
+}
