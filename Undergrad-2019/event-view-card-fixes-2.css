@@ -6,9 +6,12 @@
   display: inline-block;
 }
 
-/* Image block */
+/*** Event Image block ***/
+.view-display-id-upcoming_3_2019_refresh_block {
+  margin: 0 3%;
+}
 
-.view-display-id-upcoming_3_2019_refresh_block  .event-card__image > a > img {
+.view-display-id-upcoming_3_2019_refresh_block  .event-card__image > a > img,
 .view-display-id-upcoming_3_2019_refresh_block  .event-card__image > img {
   width: 100%
 }
@@ -17,12 +20,14 @@
   width: 100%
 }
 
-/* No image block (gradient) */
+.view-display-id-upcoming_3_2019_refresh_block .view-id-2019_event_deadline_date_display .view-content > div:nth-child(1) {
+  margin: 0;
+}
+
+/*** Event No image block (gradient) ***/
 
 .view-display-id-upcoming_3_2019_no_image_block {
-  margin-top: 4%;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin: 4% 3% 0 3%;
 }
 
 .view-display-id-upcoming_3_2019_no_image_block .view-content > div {
@@ -37,8 +42,7 @@
 
 @media (max-width: 767px) {
   .view-display-id-upcoming_3_2019_no_image_block .view-content {
-    grid-row-gap: 30px;
-
+    grid-row-gap: 2%;
   }
   .view-display-id-upcoming_3_2019_no_image_block .view-footer p {
     margin-top: 10%;
