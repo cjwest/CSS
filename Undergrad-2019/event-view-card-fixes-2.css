@@ -1,0 +1,54 @@
+/* 2019 CJW event card fixes */
+
+/* For single dates */
+.view-display-id-upcoming_3_2019_refresh_block .view-content .event-card__date > div,
+.view-display-id-upcoming_3_2019_no_image_block .view-content .event-card__date > div {
+  display: inline-block;
+}
+
+/* Image block */
+
+.view-display-id-upcoming_3_2019_refresh_block  .event-card__image > a > img {
+.view-display-id-upcoming_3_2019_refresh_block  .event-card__image > img {
+  width: 100%
+}
+
+.view-display-id-upcoming_3_2019_refresh_block .event-card__date .views-row {
+  width: 100%
+}
+
+/* No image block (gradient) */
+
+.view-display-id-upcoming_3_2019_no_image_block {
+  margin-top: 4%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.view-display-id-upcoming_3_2019_no_image_block .view-content > div {
+  width: auto;
+}
+
+.view-display-id-upcoming_3_2019_no_image_block .event-card__date--month
+{
+  padding: 3% 0;
+}
+
+
+@media (max-width: 767px) {
+  .view-display-id-upcoming_3_2019_no_image_block .view-content {
+    grid-row-gap: 30px;
+
+  }
+  .view-display-id-upcoming_3_2019_no_image_block .view-footer p {
+    margin-top: 10%;
+  }
+
+  .view-display-id-upcoming_3_2019_no_image_block .view-id-2019_event_deadline_date_display .view-content > div:nth-child(1) {
+    margin: 0;
+  }
+}
+
+.view-display-id-upcoming_3_2019_no_image_block .view-footer p {
+  margin-top: 6%;
+}
