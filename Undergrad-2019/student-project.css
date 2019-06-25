@@ -3,6 +3,13 @@
 :root {
     --student-name-color: #b1040e;
 }
+
+.node-type-stanford-project .content h2 {
+    margin-top: 0;
+}
+.node-type-stanford-project .sidebar {
+    margin-top: 0;
+}
 .node-type-stanford-project #block-bean-cardinal-compass-my-stanford-sto ul {
   margin: 10px 0 10px 0;
 }

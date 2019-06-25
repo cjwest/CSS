@@ -1,5 +1,14 @@
 /* 2019 CJW event card fixes */
 
+.view-display-id-upcoming_3_2019_no_image_block > .view-content,
+.view-display-id-upcoming_3_2019_refresh_block > .view-content {
+  display:-ms-grid;
+  display:grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "card1 card2 card3";
+}
+
 /* For single dates */
 .view-display-id-upcoming_3_2019_refresh_block .view-content .event-card__date > div,
 .view-display-id-upcoming_3_2019_no_image_block .view-content .event-card__date > div {
