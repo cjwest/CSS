@@ -1,0 +1,168 @@
+/* 2019 Subsite footers */
+
+:root {
+  --subsite-ftr-bg-color: #f0ede8;
+  --subsite-ftr-btn-bg-color: #8B1515;    /* red */
+  --subsite-ftr-color-highlight: #8B1515;    /* red */
+  --subsite-ftr-social-media-color: #2e2d29; /* black */
+  --subsite-ftr-social-media-highlight-color: #8B1515;    /* red */
+  --subsite-ftr-text-color-dark: #2e2d29; /* black */
+  --subsite-ftr-text-color-light: #FFFFFF;
+}
+
+
+#footer {
+  background-color: var(--subsite-ftr-bg-color, #f0ede8);
+  background-color: #f0ede8;
+  background-image: none;
+  color: var(--subsite-ftr-text-color-dark, #2e2d29);
+  color: #2e2d29;
+}
+
+#footer h2,
+#footer h3 {
+  color: var(--subsite-ftr-text-color-dark, #2e2d29);
+  color: #2e2d29;
+}
+#footer a:focus,
+#footer a:hover {
+  color: var(--subsite-ftr-text-color-dark, #2e2d29);
+  color: #2e2d29;
+  text-decoration: underline;
+}
+#footer a {
+  color: var(--subsite-ftr-color-highlight, #8B1515);
+  color: #8B1515;
+  text-decoration: none;
+}
+#footer a.btn,
+#footer a.more-link {
+  background-color: var(--subsite-ftr-btn-bg-color, #8B1515);
+  background-color: #8B1515;
+  color: var(--subsite-ftr-text-color-light, #FFFFFF);
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10%;
+}
+#footer a.btn-red,
+#footer a.btn-red:focus,
+#footer a.btn-red:hover {
+  background-color: var(--subsite-ftr-btn-bg-color, #8B1515);
+  background-color: #8B1515;
+  color: var(--subsite-ftr-text-color-light, #FFFFFF);
+  color: #FFFFFF;
+}
+#footer a.btn:focus,
+#footer a.btn:hover,
+#footer a.more-link:focus,
+#footer a.more-link:hover {
+  background-color: var(--subsite-ftr-btn-bg-color, #8B1515);
+  background-color: #8B1515;
+  color: var(--subsite-ftr-text-color-light, #FFFFFF);
+  color: #FFFFFF;
+  text-decoration: underline;
+  padding: 10%;
+}
+#footer a i {
+  color: var(--subsite-ftr-color-highlight, #8B1515);
+  color: #8B1515;
+  font-size: 3rem;
+}
+
+/* Social Media */
+#footer a i, #footer a .fa {
+  color: var(--subsite-ftr-social-media-color, #2e2d29);
+  color: #2e2d29;
+}
+
+#footer a i:hover,
+#footer a .fa:hover,
+#footer a i:focus,
+#footer a .fa:focus {
+  outline: 1px dashed var(--subsite-ftr-social-media-highlight-color, #8B1515);
+  outline: #8B1515;
+  color: var(--subsite-ftr-social-media-highlight-color, #8B1515);
+  color: #8B1515;
+}
+
+
+/* Subsite and other fancy footer Paths:
+programs/bosp
+programs/bosp/*
+advising/approaching-stanford
+advising/approaching-stanford/*
+programs/arts-intensive
+programs/arts-intensive/*
+academic-planning/cardinal-compass
+academic-planning/cardinal-compass/*
+tutoring-support/hume-center
+tutoring-support/hume-center/*
+programs/introsems
+programs/introsems/*
+programs/lelandscholars
+programs/lelandscholars/*
+programs/pwr
+programs/pwr/*
+opportunities/research
+opportunities/research/*
+programs/residential
+programs/residential/*
+programs/residential-programs
+programs/residential-programs/*
+sophomore-college
+sophomore-college/*
+subsites/sophomore-college
+subsites/sophomore-college/*
+programs/sophomore-college
+programs/sophomore-college/*
+stanford-in-new-york
+stanford-in-new-york/*
+programs/stanford-in-new-york
+programs/stanford-in-new-york/*
+thinking-matters
+thinking-matters/*
+subsites/thinking-matters
+subsites/thinking-matters/*
+programs/thinking-matters
+programs/thinking-matters/*
+ways
+ways/*
+programs/ways
+programs/ways/*
+
+-- other pages --
+
+undergraduate-advising-and-research-stanford
+advising/about-your-advisors
+advising/about-your-advisors/*
+advising/make-appointment
+advising/coterm
+advising/coterm/*
+advising/getting-started/athletic-academic-resource-center-aarc
+advising/returning-students
+advising/graduate-and-professional-school-general-considerations
+advising/planning-medical-school
+advising/planning-medical-school/*
+advising/planning-law-school
+advising/other-resources-graduate-and-professional-school-planning
+academic-planning/choosing-courses
+academic-planning/choosing-courses/*
+academic-planning/engage-faculty
+academic-planning/engage-faculty/*
+academic-planning/planning-departmental-honors
+academic-planning/degree-requirements
+academic-planning/degree-requirements/*
+planning/academic-policies
+advising/getting-started/advising-student-athletes/aarc-and-other-campus-tutorial-resources
+advising/getting-started/*
+advising/about-advising/*  (Check student athletes)
+advising/about-advising/advising-essentials-undergraduates
+academic-planning/planning-honors/*
+planning/academic-policies/*
+academic-planning/academic-policies/attendance-and-absences
+advising/planning-law-school/*
+advising/about-advising/advising-student-athletes
+
+
+
+end of subsite paths */

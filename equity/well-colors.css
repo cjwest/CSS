@@ -1,0 +1,48 @@
+/** Well Colors **/
+/* Copied from: https://sexualviolencesupport.stanford.edu/admin/config/development/css-injector/edit/9 */
+
+.well-red {
+    background-color: #8c1515;
+    font-weight: 400;
+}
+
+.well-brown {
+    background-color: #8d3c1e;
+    font-weight: 400;
+}
+
+.well-green {
+    background-color: #175e54;
+    font-weight: 400;
+}
+
+.well-blue {
+    background-color: #007C92;
+    font-weight: 400;
+}
+
+.well-purple {
+    background-color: #53284f;
+    font-weight: 400;
+}
+
+.well-gray {
+    background-color: #4d4f53;
+    font-weight: 400;
+}
+
+[class*=" well-"] div,
+[class*=" well-"] h2,
+[class*=" well-"] p,
+[class*=" well-"] a,
+[class*=" well-"] li,
+[class*=" well-"] a.more-link {
+    color: #f2f1eb;
+    font-weight: 300;
+}
+
+[class*=" well-"] .more-link a:hover,
+[class*=" well-"] .more-link a:focus {
+    color: #f2f1eb;
+    text-decoration: underline;
+}

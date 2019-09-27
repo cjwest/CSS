@@ -1,0 +1,57 @@
+/* Subsite Styles */
+/* Copied from https://sexualviolencesupport.stanford.edu/admin/config/development/css-injector/edit/3 */
+
+/** Full width regions **/
+.node-type-stanford-subsite .region-fullwidth-top,
+.node-type-stanford-subsite .region-fullwidth-bottom {
+  background-color: #ffffff;
+  border-bottom-color: #c3c1be;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-color: #c3c1be;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-bottom: 30px;
+}
+
+.node-type-stanford-subsite .region-fullwidth-top .block,
+.node-type-stanford-subsite .region-fullwidth-bottom .block {
+  width: 60%;
+  margin: 0 auto;
+  padding: 25px 0 20px 0;
+}
+
+.node-type-stanford-subsite .region-fullwidth-top .field-name-field-s-big-text-block-body,
+.node-type-stanford-subsite .region-fullwidth-bottom .field-name-field-s-big-text-block-body {
+  margin-top: 0px;
+  text-align: center;
+}
+
+/** Block Styles for Content Lower Region **/
+
+.node-type-stanford-subsite .region-content-lower .block a.more-link:hover {
+  text-decoration: underline;
+}
+
+.node-type-stanford-subsite .region-content-lower .block.well h2 {
+  font-size: 1.7em;
+  font-weight: 300;
+  margin: 0em 0 1em;
+}
+
+.node-type-stanford-subsite .region-content-lower .block.well li,
+.node-type-stanford-subsite .region-content-lower .block.well p{
+  font-weight: 300;
+}
+
+.node-type-stanford-subsite .region-content-lower .block.well a {
+  border-bottom: 1px solid #fff;
+  font-weight: 300;
+}
+
+.node-type-stanford-subsite .region-content-lower .block.well a:hover,
+.node-type-stanford-subsite .region-content-lower .block.well a:focus {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,41 @@
+/* Card styles */
+
+.card.block-bean {
+  padding: 0;
+}
+
+.card {
+  background: #ffffff;
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: rgb(255, 255, 255);
+  background-image: initial;
+  background-origin: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-size: initial;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.card.block-bean .field-name-field-s-image-image img {
+  padding: 0;
+  width: 100%;
+}
+
+.card.block-bean .field-name-field-s-image-image {
+  overflow: hidden;
+}
+
+/* Body */
+.card.block-bean .postcard-content {
+  padding: 30px;
+  width: auto;
+}
+.card.block-bean .postcard-content p:last-child {
+  margin-bottom: 10px;
+}

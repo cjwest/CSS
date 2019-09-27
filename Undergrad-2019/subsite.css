@@ -1,27 +1,25 @@
 /* Subsite */
-/* See ticket https://stanfordits.atlassian.net/browse/UE-159 */
 
 :root {
-  --bg-color: #f0ede8;
-  --btn-bg-color: #8B1515;    /* red */
-  --text-color-dark: #2e2d29; /* black */
-  --text-color-light: white;
-  --color-highlight: #8B1515;    /* red */
+  --subsite-header-bg-color: #FFFFFF;
+  --subsite-mobile-menu-color: #FFFFFF;
+  --subsite-mobile-menu-background: #b1040e;    /* red */
   --subsite-search-form-color: #2e2d29; /* black */
   --subsite-social-media-color: #2e2d29; /* black */
   --subsite-social-media-highlight-color: #8B1515;    /* red */
-  --subsite-mobile-menu-color: white;
-  --subsite-mobile-menu-background: #b1040e;    /* red */
-  --header-bg-color: white;
+  --subsite-text-color-dark: #2e2d29; /* black */
 }
 
 
 /** Header & lockup **/
 
 body  #block-search-form input.search-query {
-  color: var(--text-color-dark);
-  box-shadow: 0 0 0 1.5px var(--subsite-search-form-color);
-  background-color: var(--header-bg-color);
+  color: var(--subsite-text-color-dark, #2e2d29);
+  color: #2e2d29;
+  box-shadow: 0 0 0 1.5px var(--subsite-search-form-color, #2e2d29);
+  box-shadow: 0 0 0 1.5px #2e2d29;
+  background-color: var(--subsite-header-bg-color, #FFFFFF);
+  background-color: #FFFFFF;
 }
 #header,
 #header a,
@@ -33,20 +31,28 @@ body  #block-search-form input.search-query {
 .navbar .nav > li.dropdown.active-trail > a,
 .navbar .nav > li.dropdown.active > .dropdown-toggle,
 .site-main-menu {
-  background-color: var(--header-bg-color);
-  color: var(--text-color-dark);
-  font-size: 22px;
+  background-color: var(--subsite-header-bg-color, #FFFFFF);
+  background-color: #FFFFFF;
+  color: var(--subsite-text-color-dark, #2e2d29);
+  color: #2e2d29;
 }
 
 .navbar .nav > li.dropdown.open > .dropdown-toggle,
 .navbar .nav > li.dropdown > a:hover:hover,
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
-  background-color: var(--header-bg-color);
-  color: var(--text-color-dark);
+  background-color: var(--subsite-header-bg-color, #FFFFFF);
+  background-color: #FFFFFF;
+  color: var(--subsite-text-color-dark, #2e2d29);
+  color: #2e2d29;
   text-decoration: underline;
-  font-size: 22px;
 }
+
+.navbar-inner {
+  background-color: var(--subsite-header-bg-color, #FFFFFF);
+  background-color: #FFFFFF;
+}
+
 
 #header #logo img {
   max-width: 179px !important;
@@ -55,19 +61,24 @@ body  #block-search-form input.search-query {
 /** Subsite Search bar **/
 
 input[type="text"].search-query:-moz-placeholder {  /* Firefox 18- */
-  color: var(--subsite-search-form-color);
+  color: var(--subsite-search-form-color, #2e2d29);
+  color: #2e2d29;
 }
 input[type="text"].search-query::-moz-placeholder { /* Firefox 19+ */
-  color: var(--subsite-search-form-color);
+  color: var(--subsite-search-form-color, #2e2d29);
+  color: #2e2d29;
 }
 input[type="text"].search-query:-ms-input-placeholder { /* IE 10+ */
-  color: var(--subsite-search-form-color);
+  color: var(--subsite-search-form-color, #2e2d29);
+  color: #2e2d29;
 }
 input[type="text"].search-query::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: var(--subsite-search-form-color);
+  color: var(--subsite-search-form-color, #2e2d29);
+  color: #2e2d29;
 }
 input[type="text"].search-query::placeholder {
-  color: var(--subsite-search-form-color);
+  color: var(--subsite-search-form-color, #2e2d29);
+  color: #2e2d29;
 }
 body #block-search-form input.search-query:active,
 body #block-search-form input.search-query:hover,
@@ -84,7 +95,8 @@ body #block-search-form input.search-query:focus {
 @media (max-width: 767px) {
   #main-menu,
   .site-main-menu{
-    color: var(--subsite-mobile-menu-color);
+    color: var(--subsite-mobile-menu-color, #FFFFFF);
+    color: #FFFFFF;
   }
 
   #main-menu,
@@ -102,8 +114,10 @@ body #block-search-form input.search-query:focus {
   .navbar .nav > li.dropdown.open > .dropdown-toggle,
   .navbar .nav > li.dropdown.active > .dropdown-toggle,
   .navbar .nav > li.dropdown.open.active > .dropdown-toggle {
-    background-color: var(--subsite-mobile-menu-background);
-    color: var(--subsite-mobile-menu-color);
+    background-color: var(--subsite-mobile-menu-background, #b1040e);
+    background-color: #b1040e;
+    color: var(--subsite-mobile-menu-color, #FFFFFF);
+    color: #FFFFFF;
   }
 
 
@@ -114,24 +128,31 @@ body #block-search-form input.search-query:focus {
   body #block-search-form input.search-query:hover,
   body #block-search-form input.search-query {
     background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-white.svg) no-repeat 0 center;
-    box-shadow: 0 0 0 1.5px var(--subsite-mobile-menu-color);
-    color: var(--subsite-mobile-menu-color);
+    box-shadow: 0 0 0 1.5px var(--subsite-mobile-menu-color, #FFFFFF);
+    box-shadow: 0 0 0 1.5px #FFFFFF;
+    color: var(--subsite-mobile-menu-color, #FFFFFF);
+    color: #FFFFFF;
   }
 
   input[type="text"].search-query:-moz-placeholder {  /* Firefox 18- */
-    color: var(--subsite-mobile-menu-color);
+    color: var(--subsite-mobile-menu-color, #FFFFFF);
+    color: #FFFFFF;
   }
   input[type="text"].search-query::-moz-placeholder { /* Firefox 19+ */
-    color: var(--subsite-mobile-menu-color);
+    color: var(--subsite-mobile-menu-color, #FFFFFF);
+    color: #FFFFFF;
   }
   input[type="text"].search-query:-ms-input-placeholder { /* IE 10+ */
-    color: var(--subsite-mobile-menu-color);
+    color: var(--subsite-mobile-menu-color, #FFFFFF);
+    color: #FFFFFF;
   }
   input[type="text"].search-query::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: var(--subsite-mobile-menu-color);
+    color: var(--subsite-mobile-menu-color, #FFFFFF);
+    color: #FFFFFF;
   }
   input[type="text"].search-query::placeholder {
-    color: var(--subsite-mobile-menu-color);
+    color: var(--subsite-mobile-menu-color, #FFFFFF);
+    color: #FFFFFF;
   }
   body #block-search-form input.search-query:active,
   body #block-search-form input.search-query:hover,
@@ -142,67 +163,12 @@ body #block-search-form input.search-query:focus {
     background: url(/sites/undergrad/themes/undergrad_2019/images/sws-magnifying-glass-white.svg) no-repeat 160px center;
   }
   input:-internal-autofill-selected {
-    background-color: var(--subsite-mobile-menu-background) !important;
+    background-color: var(--subsite-mobile-menu-background, #b1040e) !important;
     /*background-image: none !important;*/
-    color: var(--subsite-mobile-menu-color) !important;
+    color: var(--subsite-mobile-menu-color, #FFFFFF) !important;
+    color: #FFFFFF;
   }
 }
-
-/** Footers **/
-
-#footer {
-  background-color: var(--bg-color);
-  background-image: none;
-  color: var(--text-color-dark);
-}
-
-#footer h2,
-#footer h3 {
-  color: var(--text-color-dark);
-}
-#footer a:focus,
-#footer a:hover {
-  color: var(--text-color-dark);
-  text-decoration: underline;
-}
-#footer a {
-  color: var(--color-highlight);
-  text-decoration: none;
-}
-#footer a.btn,
-#footer a.more-link {
-  background-color: var(--btn-bg-color);
-  color: var(--text-color-light);
-  text-decoration: none;
-  padding: 10%;
-}
-#footer a.btn:focus,
-#footer a.btn:hover,
-#footer a.more-link:focus,
-#footer a.more-link:hover {
-  background-color: var(--btn-bg-color);
-  color: var(--text-color-light);
-  text-decoration: underline;
-  padding: 10%;
-}
-#footer a i {
-  color: var(--color-highlight);
-  font-size: 3rem;
-}
-
-/* Social Media */
-#footer a i, #footer a .fa {
-  color: var(--subsite-social-media-color);
-}
-
-#footer a i:hover,
-#footer a .fa:hover,
-#footer a i:focus,
-#footer a .fa:focus {
-  outline: 1px dashed var(--subsite-social-media-highlight-color);
-  color: var(--subsite-social-media-highlight-color);
-}
-
 
 /* Subsite Paths:
 programs/bosp
