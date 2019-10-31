@@ -1,0 +1,101 @@
+/****** HIDE IMAGE, ARROW, AND BLOCK TITLE FROM DISPLAYING ******/
+#block-bean-homepage-pl-block-3--2 .bean-stanford-postcard-linked .postcard-linked-container a.postcard-linked-img-container .postcard-linked-img .postcard-linked-arrow,
+#block-bean-me-big-and-small-collection-teas .bean-stanford-postcard-linked .postcard-linked-container a.postcard-linked-img-container .postcard-linked-img .postcard-linked-arrow,
+#block-bean-homepage-pl-block-3--2 .bean-stanford-postcard-linked .postcard-linked-container .postcard-linked-content-container .postcard-linked-title a,
+#block-bean-me-big-and-small-collection-teas .bean-stanford-postcard-linked .postcard-linked-container .postcard-linked-content-container .postcard-linked-title a,
+#block-bean-homepage-pl-block-3--2 .bean-stanford-postcard-linked .postcard-linked-container a.postcard-linked-img-container .postcard-linked-img .postcard-linked-arrow img,
+#block-bean-me-big-and-small-collection-teas .bean-stanford-postcard-linked .postcard-linked-container a.postcard-linked-img-container .postcard-linked-img .postcard-linked-arrow img,
+#block-bean-homepage-pl-block-3 .bean-stanford-postcard-linked .postcard-linked-container a.postcard-linked-img-container .postcard-linked-img .postcard-linked-arrow,
+#block-bean-homepage-pl-block-3 .bean-stanford-postcard-linked .postcard-linked-container .postcard-linked-content-container .postcard-linked-title a,
+#block-bean-homepage-pl-block-3 .bean-stanford-postcard-linked .postcard-linked-container a.postcard-linked-img-container .postcard-linked-img .postcard-linked-arrow img {
+  display: none;
+}
+
+/****** CARD TWEAKS ******/
+
+/*change background color and padding*/
+#block-bean-homepage-pl-block-3--2 .bean-stanford-postcard-linked .postcard-linked-container .postcard-linked-content-container,
+#block-bean-homepage-pl-block-3 .bean-stanford-postcard-linked .postcard-linked-container .postcard-linked-content-container,
+#block-bean-me-big-and-small-collection-teas .bean-stanford-postcard-linked .postcard-linked-container {
+  background: #EFEFEF;
+  padding: 30px 30px 45px;
+}
+
+/****** TYPOGRAPHY ******/
+
+/*removing margin-bottom from hidden postcard block title*/
+#block-bean-homepage-pl-block-3--2 .bean-stanford-postcard-linked .postcard-linked-container .postcard-linked-content-container .postcard-linked-title,
+#block-bean-homepage-pl-block-3 .bean-stanford-postcard-linked .postcard-linked-container .postcard-linked-content-container .postcard-linked-title {
+  margin-bottom:0;
+}
+
+/*body*/
+#block-bean-homepage-pl-block-3--2 p,
+#block-bean-homepage-pl-block-3 p,
+#block-bean-me-big-and-small-collection-teas p {
+  color: #606060;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.07em;
+  line-height: 1.3em;
+  margin-bottom: 0px;
+}
+
+/*caption*/
+#block-bean-homepage-pl-block-3--2 .caption,
+#block-bean-homepage-pl-block-3 .caption,
+#block-bean-me-big-and-small-collection-teas .caption {
+  font-size: 1em;
+  margin: 0 1em;
+  font-weight: 300;
+}
+
+/*h2*/
+#block-bean-homepage-pl-block-3--2 h2,
+#block-bean-homepage-pl-block-3 h2,
+#block-bean-me-big-and-small-collection-teas h2 {
+  margin: 0.5em 0 0.5em;
+  text-align:center;
+  font-size: 1.8em;
+}
+
+/*use $turquoise variable for color*/
+#block-bean-homepage-pl-block-3--2 h2 a,
+#block-bean-homepage-pl-block-3 h2 a,
+#block-bean-me-big-and-small-collection-teas h2 a{
+  text-decoration-color: #FF525C;
+}
+
+/*use $primary-color variable for color*/
+#block-bean-homepage-pl-block-3--2 h2 a:hover,
+#block-bean-homepage-pl-block-3 h2 a:hover,
+#block-bean-me-big-and-small-collection-teas h2 a:hover {
+  text-decoration-color: #333333;
+}
+
+/*button*/
+#block-bean-homepage-pl-block-3--2 .bean-stanford-postcard-linked .postcard-linked-container p a.btn.btn-turquoise,
+#block-bean-homepage-pl-block-3 .bean-stanford-postcard-linked .postcard-linked-container p a.btn.btn-turquoise,
+#block-bean-me-big-and-small-collection-teas .bean-stanford-postcard-linked .postcard-linked-container p a.btn.btn-turquoise {
+  font-size: .9em;
+  line-height: 1.2em;
+  margin-top: 24px;
+  letter-spacing: 0;
+}
+
+/****** ADDITIONAL TWEAKS TO ME LANDING PAGE INSTANCE ******/
+
+/*tweaking margin below H2*/
+#block-bean-me-big-and-small-collection-teas h2 {
+  margin: .5em 0 0.2em;
+}
+
+/*tweaking margin below subtitle*/
+#block-bean-me-big-and-small-collection-teas .bean-stanford-postcard-linked .postcard-linked-container .postcard-linked-content-container .postcard-linked-body p {
+  margin-bottom: .5em;
+}
+
+/*reducing padding on card*/
+#block-bean-me-big-and-small-collection-teas .bean-stanford-postcard-linked .postcard-linked-container {
+  padding: 30px;
+}

@@ -1,0 +1,41 @@
+/****** LINES 3-11 ADDRESS THE HOMEPAGE & PARAGRAPH 2-COLUMN STYLE ******/
+
+p.columns {
+  column-count: 1;
+  column-gap: 0;
+  line-height: 1.6em;
+}
+
+.front [id*="block-bean-homepage-2-column-"] .content {
+  width: 85%;
+}
+
+@media (max-width: 767px) {
+  .front [id*="block-bean-homepage-2-column-"] .content {
+    width: 95%;
+  }
+}
+
+/****** LINES 20-23 ADDRESS THE 2-COLUMN STYLE ON PARAGRAPHS FOR MAGAZINE ******/
+
+.node-type-stanford-magazine-article .paragraphs-item-p-two-columns {
+  column-count: 1;
+  column-gap: 0;
+  margin: 0 auto;
+  width: 85%;
+}
+
+@media (max-width: 480px) {
+  .node-type-stanford-magazine-article .paragraphs-item-p-two-columns {
+    width: 100%;
+  }
+}
+
+/****** LINES 15-20 ADDRESS THE WYSIWYG 2-COLUMN STYLE, SO THAT IT LOOKS LIKE A SINGLE COLUMN ON LEGACY CONTENT, COPY THESE STYLES FOR THE NEW "CALLOUT" WYSIWYG STYLE ******/
+
+.group-p-ws-style p.columns {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  column-count: 1;
+  padding: 0 50px;
+}

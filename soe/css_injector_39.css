@@ -1,0 +1,73 @@
+/****** TOP AND BOTTOM GRAY BAR TWEAKS *****/
+
+/* intro and continue labels */
+.node-type-stanford-magazine-article .view-stanford-magazine-article-collection .views-field-field-s-collectlon-intro-label,
+.node-type-stanford-magazine-article .view-stanford-magazine-article-collection.view-display-id-article_collection_bottom_block .view-header .views-field-field-s-collection-cont-label {
+  font-weight: 400;
+}
+
+/* subtitle */
+.node-type-stanford-magazine-article .view-display-id-article_collection .views-field-field-s-collection-subtitle,
+.node-type-stanford-magazine-article .view-stanford-magazine-article-collection.view-display-id-article_collection_bottom_block .view-header .views-field-field-s-collection-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+/****** TOP GRAY COLLECTION BAR ******/
+
+/* note: use $primary-color variable for collection title */
+.node-type-stanford-magazine-article .view-stanford-magazine-article-collection .views-field-title {
+  color: #333333;
+  line-height: 1.3em;
+  font-size: 22px;
+}
+
+/* gray background */
+.node-type-stanford-magazine-article .view-stanford-magazine-article-collection {
+ padding: 20px 0;
+}
+
+/****** BOTTOM GRAY COLLECTION BAR ******/
+
+/* collection title styling */
+.node-type-stanford-magazine-article .view-stanford-magazine-article-collection.view-display-id-article_collection_bottom_block .view-header .views-field-title {
+  color: #333333;
+  line-height: 1.3em;
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+/* increased padding in between subscribe block and gray bar */
+.node-type-stanford-magazine-article .main {
+  padding: 80px 0 0;
+}
+
+/* increased padding left and right and bottom of the gray bar (I like how the % scales for responsive, possibly something we want to consider for D8 */
+.node-type-stanford-magazine-article .view-stanford-magazine-article-collection.view-display-id-article_collection_bottom_block {
+  padding: 0 15% 80px;
+}
+
+/*** BOTTOM GRAY BAR RESPONSIVE ***/
+
+/*decreased margin below continue label, title, subtitle chunk*/
+@media (max-width: 580px) {
+  .node-type-stanford-magazine-article .view-stanford-magazine-article-collection.view-display-id-article_collection_bottom_block .view-header {
+    margin-bottom: 40px;
+  }
+/*decreased font-size of intro and continue labels*/
+  .node-type-stanford-magazine-article .view-stanford-magazine-article-collection .views-field-field-s-collectlon-intro-label,
+  .node-type-stanford-magazine-article .view-stanford-magazine-article-collection.view-display-id-article_collection_bottom_block .view-header .views-field-field-s-collection-cont-label {
+    font-size: 14px;
+  }
+/*decreased font-size of collection title*/
+  .node-type-stanford-magazine-article .view-stanford-magazine-article-collection .views-field-title,
+  .node-type-stanford-magazine-article .view-stanford-magazine-article-collection.view-display-id-article_collection_bottom_block .view-header .views-field-title {
+    font-size: 18px;
+  }
+/*decreased font-size of collection subtitle*/
+  .node-type-stanford-magazine-article .view-display-id-article_collection .views-field-field-s-collection-subtitle,
+  .node-type-stanford-magazine-article .view-stanford-magazine-article-collection.view-display-id-article_collection_bottom_block .view-header .views-field-field-s-collection-subtitle {
+    font-size: 16px;
+  }
+}

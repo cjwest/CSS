@@ -1,0 +1,105 @@
+/****** THIS FIXES A BUG THAT AFFECTS OUR SUBSCRIBE BLOCK IN THE FOOTER ON COLLECTION PAGES, CSS NEEDED TO BE MORE SPECIFIC ******/
+
+.node-type-stanford-collection #mc_embed_signup_scroll {
+    padding: 0;
+}
+
+.node-type-stanford-collection .mailchimp-magazine-block #mc_embed_signup_scroll {
+    padding: 65px 0;
+}
+
+/****** TWEAK TO FULL WIDTH SUBSCRIBE BLOCK ON /MAGAZINE AND /MAGAZINE/TAXONOMY AND /MAGAZINE/"COLLECTION-NAME" ******/
+
+.page-magazine .mailchimp-magazine-block #mc_embed_signup_scroll,
+.page-magazine-all .mailchimp-magazine-block #mc_embed_signup_scroll,
+.page-taxonomy-term .mailchimp-magazine-block #mc_embed_signup_scroll {
+  margin-bottom: 0;
+}
+
+.page-magazine form#mc-embedded-subscribe-form,
+.page-magazine-all form#mc-embedded-subscribe-form,
+.page-taxonomy-term form#mc-embedded-subscribe-form,
+.node-type-stanford-collection form#mc-embedded-subscribe-form {
+  margin-bottom: 0;
+}
+
+.page-magazine .mailchimp-magazine-block #mc_embed_signup_scroll,
+.page-magazine-all .mailchimp-magazine-block #mc_embed_signup_scroll,
+.page-taxonomy-term .mailchimp-magazine-block #mc_embed_signup_scroll,
+.node-type-stanford-collection .mailchimp-magazine-block #mc_embed_signup_scroll {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+/*** RESPONSIVE TWEAKS TO SUBSCRIBE BLOCK ON SAME PAGES AS ABOVE ***/
+
+/*padding inside subscribe block */
+@media (max-width: 767px) {
+  .page-magazine .mailchimp-magazine-block #mc_embed_signup_scroll,
+  .page-magazine-all .mailchimp-magazine-block #mc_embed_signup_scroll,
+  .page-taxonomy-term .mailchimp-magazine-block #mc_embed_signup_scroll,
+  .node-type-stanford-collection .mailchimp-magazine-block #mc_embed_signup_scroll {
+    padding: 40px 0;
+  }
+}
+
+/****** NEEDED TO ADD IN MARGIN-TOP TO THE SECTION OF CARDS RIGHT BELOW THE EMAIL SIGNUP ROW ON /MAGAZINE AND /MAGAZINE/TAXONOMY AND /MAGAZINE/"COLLECTION-NAME" ******/
+
+.page-magazine #content-body-bottom,
+.page-magazine-all #content-body-bottom,
+.page-taxonomy-term #content-body-bottom,
+.node-type-stanford-collection #content-body-bottom {
+  margin-top: 5%;
+}
+
+
+/****** MAG ARTICLE NODE EMAIL SUBSCRIPTION BLOCK ONLY ******/
+
+/* block width */
+.node-type-stanford-magazine-article #block-bean-stanford-soe-mag-news-signup .mailchimp-magazine-block #mc_embed_signup_scroll {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* h2 font size */
+.node-type-stanford-magazine-article #block-bean-stanford-soe-mag-news-signup .mailchimp-magazine-block #mc_embed_signup_scroll h2 {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+/* input width */
+.node-type-stanford-magazine-article #block-bean-stanford-soe-mag-news-signup .mailchimp-magazine-block #mc_embed_signup_scroll .mc-field-group input {
+  width: 300px;
+}
+
+/*** RESPONSIVE TWEAKS ON ARTICLE NODE ***/
+
+/* block width */
+@media (max-width: 979px) {
+  .node-type-stanford-magazine-article #block-bean-stanford-soe-mag-news-signup .mailchimp-magazine-block #mc_embed_signup_scroll {
+    width: 70%;
+    }
+}
+
+/* input width */
+@media (max-width: 580px) {
+  .node-type-stanford-magazine-article #block-bean-stanford-soe-mag-news-signup .mailchimp-magazine-block #mc_embed_signup_scroll .mc-field-group input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+/* block width & padding */
+  .node-type-stanford-magazine-article #block-bean-stanford-soe-mag-news-signup .mailchimp-magazine-block #mc_embed_signup_scroll {
+    width: 80%;
+    padding: 25px;
+  }
+/* h2 font-size */
+  .node-type-stanford-magazine-article #block-bean-stanford-soe-mag-news-signup .mailchimp-magazine-block #mc_embed_signup_scroll h2 {
+    font-size: 1.1em;
+  }
+/* input width */
+  .node-type-stanford-magazine-article #block-bean-stanford-soe-mag-news-signup .mailchimp-magazine-block #mc_embed_signup_scroll .mc-field-group input {
+    width: 150px;
+  }
+}

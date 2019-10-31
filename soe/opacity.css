@@ -1,0 +1,26 @@
+/* Opacity */
+
+/* Remove opacity */
+.opacity-none .image-style-full-width-banner-short,
+.opacity-none .fwl-banner-image .field-name-field-s-image-image img,
+.opacity-none .paragraphs-item-p-featured .field-name-field-p-featured-image img {
+    opacity: unset;
+}
+
+/* Default opacity */
+.opacity .image-style-full-width-banner-short,
+.opacity .fwl-banner-image .field-name-field-s-image-image img,
+.opacity .paragraphs-item-p-featured .field-name-field-p-featured-image img,
+.opacity-3 .image-style-full-width-banner-short,
+.opacity-3 .fwl-banner-image .field-name-field-s-image-image img,
+.opacity-3 .paragraphs-item-p-featured .field-name-field-p-featured-image img {
+    opacity: 0.3;
+}
+
+/* Lighter opacity */
+.opacity-5 .image-style-full-width-banner-short,
+.opacity-5 .fwl-banner-image .field-name-field-s-image-image img,
+.opacity-5 .paragraphs-item-p-featured .field-name-field-p-featured-image img {
+    opacity: 0.5;
+}
+

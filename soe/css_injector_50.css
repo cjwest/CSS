@@ -1,0 +1,60 @@
+.dm-global-header #site-title-first-line.site-title-uppercase,
+.dm-global-header #site-title-first-line.site-title-uppercase a {
+    font-size: 18px;
+}
+@media (max-width: 480px) {
+    #header.header #site-title-first-line.site-title-uppercase a {
+    font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+  #header.header #site-title-first-line.site-title-uppercase a {
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  #header.header #site-title-first-line.site-title-uppercase a {
+      font-size: 16px;
+  }
+}
+
+a {
+    font-weight: 400;
+}
+
+.view-stanford-magazine-article-mag-landing-page .mag-article-container .mag-article-content-container .mag-article-title a,
+.view-stanford-magazine-collection-mag-landing-page .mag-article-container .mag-article-content-container .mag-article-title a,
+.view-display-id-article_collection_bottom_block .mag-article-container .mag-article-content-container .mag-article-title a {
+  font-weight: 600;
+}
+
+h3 a {
+    font-weight: 600;
+}
+h2 a {
+    font-weight: 600;
+}
+p.columns a {
+    font-weight: bold;
+}
+
+/***MAGAZINE CARDS ***/
+
+.view-stanford-magazine-article-most-recent.article-grouping .mag-topic-card-container .mag-article-title[class*="mag-article-color-"] a,
+.view-stanford-magazine-articles.article-grouping .mag-topic-card-container .mag-article-title[class*="mag-article-color-"] a,
+.view-stanford-magazine-topics.article-grouping .mag-topic-card-container .mag-article-title[class*="mag-article-color-"] a,
+.view-stanford-magazine-issues .mag-article-container .mag-article-content-container .mag-article-title[class*="mag-article-color-"] a,
+.view-stanford-magazine-issues .mag-feat-article-container .mag-article-content-container .mag-article-title[class*="mag-article-color-"] a,
+.view-stanford-magazine-article-most-recent.most-recent-article .most-recent-article-container .mag-topic-card-container .mag-article-title[class*="mag-article-color-"] a,
+.view-stanford-magazine-articles.most-recent-article .most-recent-article-container .mag-topic-card-container .mag-article-title[class*="mag-article-color-"] a,
+.view-stanford-magazine-topics.most-recent-article .most-recent-article-container .mag-topic-card-container .mag-article-title[class*="mag-article-color-"] a{
+  font-weight: 600;
+}
+
+/***MAGAZINE NAVIGATION***/
+
+#digital-magazine-menu .region-digital-magazine-menu .block-menu-block ul li a {
+  font-weight: 600;
+}

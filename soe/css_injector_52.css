@@ -1,0 +1,36 @@
+/*** REMOVE PIPE***/
+.node-type-stanford-magazine-article .group-s-mag-article-date-byline .field-name-field-s-mag-article-collection .field-label:after {
+  content: "\00a0 \00a0";
+}
+
+/*** PUSH COLLECITON TITLE DOWN SO IT BASELINE ALIGNS WITH THE LABEL ***/
+.node-type-stanford-magazine-article .group-s-mag-article-date-byline .field-name-field-s-mag-article-collection .field-items {
+  margin-top: 1px;
+}
+
+@media (max-width: 979px) {
+  .node-type-stanford-magazine-article .group-s-mag-article-date-byline .field-name-field-s-mag-article-collection .field-label {
+    font-size: 17px;
+  }
+  .node-type-stanford-magazine-article .group-s-mag-article-date-byline .group-s-social-and-print {
+    margin-left: -13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .node-type-stanford-magazine-article .group-s-mag-article-date-byline .field-name-field-s-mag-article-collection .field-label {
+    font-size: 16.5px;
+  }
+}
+
+@media (max-width: 580px) {
+  .node-type-stanford-magazine-article .group-s-mag-article-date-byline .field-name-field-s-mag-article-collection .field-label {
+    font-size: 16.1px;
+  }
+}
+
+@media (max-width: 400px) {
+  .node-type-stanford-magazine-article .group-s-mag-article-date-byline .field-name-field-s-mag-article-collection .field-label {
+    font-size: 15px;
+  }
+}

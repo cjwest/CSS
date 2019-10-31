@@ -1,0 +1,12 @@
+/***** ADDING MARGIN BETWEEN THE BOTTOM OF THE GRAY BAR AND THE FIRST HORIZONTAL ARTICLE TEASER BLOCK ******/
+
+.node-type-stanford-collection .view-display-id-collection_group_block_1 .views-row {
+  margin: 80px 0;
+}
+
+/*** RESPONSIVE ***/
+@media (max-width: 580px) {
+  .node-type-stanford-collection .view-display-id-collection_group_block_1 .views-row {
+    margin: 40px 0;
+  }
+}

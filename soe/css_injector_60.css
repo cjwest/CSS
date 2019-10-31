@@ -1,0 +1,8 @@
+.superhead {
+    font-family: "Source-sans-pro", sans-serif; /* use $primary-font variable in SCSS*/
+    font-size: 18px; /*use the proper em value in SCSS*/
+    line-height: 1.2em;
+    color: #333; /*use $primary-color value in SCSS*/
+    font-weight: 600;
+}
+

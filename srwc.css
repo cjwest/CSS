@@ -1,0 +1,25 @@
+li.external-link:after,
+a.external-link:after {
+    font-family: FontAwesome;
+    content: "\f08e";
+    font-size: 15px;
+    color: #8c1515;
+    margin-left: 5px;
+}
+
+
+a.btn.external-link:after,
+a.btn.external-link:focus:after,
+a.btn.external-link:hover:after {
+  color: #fbfbf9;
+}
+
+#block-menu-block-stanford-jumpstart-layouts-2 > div.content > div > ul > li.active-trail.active > a:after,
+li.external-link:focus:after,
+li.external-link:hover:after,
+a.active.active-trail.external-link:after,
+a.external-link:focus:after,
+a.external-link:hover:after {
+  color: #333333;
+  text-decoration: none;
+}
